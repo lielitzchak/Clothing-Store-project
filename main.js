@@ -1,6 +1,6 @@
 var item = [
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -8,7 +8,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -16,7 +16,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -24,7 +24,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -32,7 +32,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -40,7 +40,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -49,7 +49,7 @@ var item = [
   },
 
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -57,7 +57,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -66,7 +66,7 @@ var item = [
   },
 
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -74,7 +74,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -82,7 +82,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -90,64 +90,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
-    itemName: "",
-    price: 50,
-    description: "",
-    category: "pants",
-    picture: ["", ""],
-  },
-
-  {
-    id:"",
-    itemName: "",
-    price: 50,
-    description: "",
-    category: "pants",
-    picture: ["", ""],
-  },
-  {
-    id:"",
-    itemName: "",
-    price: 50,
-    description: "",
-    category: "pants",
-    picture: ["", ""],
-  },
-  {
-    id:"",
-    itemName: "",
-    price: 50,
-    description: "",
-    category: "Shirts",
-    picture: ["", ""],
-  },
-  {
-    id:"",
-    itemName: "",
-    price: 50,
-    description: "",
-    category: "Swimwear",
-    picture: ["", ""],
-  },
-  {
-    id:"",
-    itemName: "",
-    price: 50,
-    description: "",
-    category: "Shirts",
-    picture: ["", ""],
-  },
-  {
-    id:"",
-    itemName: "",
-    price: 50,
-    description: "",
-    category: "Swimwear",
-    picture: ["", ""],
-  },
-  {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -156,7 +99,31 @@ var item = [
   },
 
   {
-    id:"",
+    id: "",
+    itemName: "",
+    price: 50,
+    description: "",
+    category: "pants",
+    picture: ["", ""],
+  },
+  {
+    id: "",
+    itemName: "",
+    price: 50,
+    description: "",
+    category: "pants",
+    picture: ["", ""],
+  },
+  {
+    id: "",
+    itemName: "",
+    price: 50,
+    description: "",
+    category: "Shirts",
+    picture: ["", ""],
+  },
+  {
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -164,7 +131,40 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
+    itemName: "",
+    price: 50,
+    description: "",
+    category: "Shirts",
+    picture: ["", ""],
+  },
+  {
+    id: "",
+    itemName: "",
+    price: 50,
+    description: "",
+    category: "Swimwear",
+    picture: ["", ""],
+  },
+  {
+    id: "",
+    itemName: "",
+    price: 50,
+    description: "",
+    category: "pants",
+    picture: ["", ""],
+  },
+
+  {
+    id: "",
+    itemName: "",
+    price: 50,
+    description: "",
+    category: "Swimwear",
+    picture: ["", ""],
+  },
+  {
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -172,7 +172,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -180,7 +180,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -189,7 +189,7 @@ var item = [
   },
 
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -198,7 +198,7 @@ var item = [
   },
 
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -206,7 +206,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -215,7 +215,7 @@ var item = [
   },
 
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -223,7 +223,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -231,7 +231,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -239,7 +239,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -247,7 +247,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -255,7 +255,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -263,7 +263,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -271,7 +271,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -279,7 +279,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -287,7 +287,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -295,7 +295,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -303,7 +303,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -311,7 +311,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -319,7 +319,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -327,7 +327,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -335,7 +335,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -343,7 +343,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -351,7 +351,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -359,7 +359,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -367,7 +367,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -375,7 +375,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -383,7 +383,7 @@ var item = [
     picture: ["", ""],
   },
   {
-    id:"",
+    id: "",
     itemName: "",
     price: 50,
     description: "",
@@ -391,3 +391,5 @@ var item = [
     picture: ["", ""],
   },
 ];
+var theBigDiv = document.getElementById("theBigDiv");
+var body = document.getElementsByTagName("body");
