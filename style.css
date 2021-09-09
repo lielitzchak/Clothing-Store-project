@@ -1,3 +1,4 @@
+/* לטבלט */
 * {
   border: 0;
   padding: 0;
@@ -6,4 +7,19 @@
 a {
   color: black;
   text-decoration: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+#imgLogoHome {
+  width: 100px;
+  height: auto;
 }
