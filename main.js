@@ -419,4 +419,6 @@ var item = [
   },
 ];
 var theHeader = document.getElementsByTagName("header");
-var imgLogoHome = document.getElementById("imgLogoHome")
+var imgLogoHome = document.getElementById("imgLogoHome");
+var king = document.getElementById("king");
+var comingSoonImg = document.getElementById("comingSoonImg")
