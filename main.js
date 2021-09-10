@@ -418,3 +418,4 @@ var item = [
     picture: ["https://did.li/sHfaa", "https://did.li/JSHNf"],
   },
 ];
+var theHeader = document.getElementsByTagName("header");

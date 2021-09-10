@@ -11,7 +11,7 @@ theBigDiv.innerHTML = `
             <a href=""> <li> Swimwear </li></a>
             <a href=""> <li>pants </li></a>
         </ul>
-        <a href=""><img src="/media/logo_size_fav.jpg" id="imgLogoHome" alt=""></a>
+        <a href=""><img src="/media/photos/logo_size_fav-removebg-preview.png" id="imgLogoHome" alt=""></a>
      </nav>
 </header>
 <main></main>
