@@ -1,4 +1,8 @@
 @media only screen and (min-device-width: 10px) and (max-device-width: 864px) {
 *{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
 }
 }
