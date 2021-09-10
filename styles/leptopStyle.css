@@ -1,2 +1,5 @@
-@media only screen and (min-width: 1110px) {
+@media only screen and (min-width:767px) {
+* {
+    background-color: brown;
+}
 }
