@@ -1,5 +1,35 @@
-@media only screen and (min-width:767px) {
-* {
+@media only screen and (min-width: 767px) {
+  * {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
     background-color: brown;
-}
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  ul {
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul li {
+    font-family: 'Merienda', cursive;
+    list-style: none;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  #imgLogoHome {
+    width: auto;
+    height: 110px;
+  }
+  #shoppingBag {
+    height: 40px;
+    width: auto;
+  }
+ 
 }
