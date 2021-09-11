@@ -3,25 +3,21 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    background-color: brown;
   }
-  nav {
+  #header_nav_home_page {
     display: flex;
     justify-content: space-between;
+    background-color: #f7f6f2;
   }
-  ul {
+  #header_ul_home_page {
     display: flex;
     flex-grow: 2;
     justify-content: space-between;
     align-items: center;
   }
-  ul li {
-    font-family: 'Merienda', cursive;
+  #header_ul_home_page .header_li_home_page {
+    font-family: "Merienda", cursive;
     list-style: none;
-  }
-  a {
-    color: black;
-    text-decoration: none;
   }
   #imgLogoHome {
     width: auto;
@@ -31,5 +27,34 @@
     height: 40px;
     width: auto;
   }
- 
+  main {
+    background-color: #c8c6c6;
+  }
+  footer {
+    background-color: #4b6587;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .section_home_page {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .img_home_page {
+    width: auto;
+    height: 40%;
+    border-radius: 50px;
+  }
+  .h1_home_page {
+    font-family: "Merienda", cursive;
+    font-size: 80px;
+  }
+  #footer_div_home_page {
+    display: flex;
+    justify-content: space-between;
+  }
 }
