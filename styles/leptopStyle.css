@@ -1,4 +1,4 @@
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 1039px) {
   * {
     margin: 0;
     border: 0;
@@ -38,7 +38,6 @@
     color: black;
     text-decoration: none;
   }
-
   .section_home_page {
     display: flex;
     justify-content: space-evenly;
@@ -49,12 +48,44 @@
     height: 40%;
     border-radius: 50px;
   }
+  
   .h1_home_page {
     font-family: "Merienda", cursive;
     font-size: 80px;
   }
   #footer_div_home_page {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+  }
+  .footer_img_home_page {
+    height: 39px;
+    width: auto;
+  }
+
+  .footer_ul_home_page li {
+    list-style: none;
+  }
+
+  .footer_btn_home_page {
+    width: 33%;
+    height: 40%;
+    padding: 10px 25px;
+    border: 2px solid;
+    border-radius: 10px;
+    
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+  .footer_butn {
+    color: rgb(0, 0, 0);
+    padding: 0;
+    border: none;
+  }
+  .footer_butn:hover {
+    background: transparent;
+    color: black;
+    box-shadow: -1px -1px 20px 0px #fff9, -1px -1px 1px 0px #fff9,
+      7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
   }
 }

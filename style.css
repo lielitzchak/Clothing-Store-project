@@ -1,5 +1,5 @@
 /* לטבלט */
-@media only screen and (min-device-width: 426px) and (max-device-width: 767px) {
+@media only screen and (min-device-width: 426px) and (max-device-width: 1038px) {
   * {
     margin: 0;
     border: 0;
