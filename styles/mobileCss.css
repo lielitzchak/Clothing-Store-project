@@ -4,6 +4,53 @@
     border: 0;
     box-sizing: border-box;
   }
+
+  .m .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #c8c6c6;
+    position: relative;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    color: black;
+    top: 0;
+  }
+
+  .active {
+    background-color: #f7f6f2;
+    color: black;
+  }
+  #header_nav_home_page {
+    display: none;
+  }
+  #header_shopping_bag_mobile {
+    width: 7%;
+    height: auto;
+  }
   header {
     background-color: #f7f6f2;
   }
@@ -13,41 +60,23 @@
   footer {
     background-color: #4b6587;
   }
- /*  nav {
-    display: flex;
-    justify-content: space-between;
-  }
-  ul {
-    /* display: flex; 
-    flex-grow: 2;
-    justify-content: space-between;
-    align-items: center;
-  }
-  ul li {
-    font-family: "Merienda", cursive;
-    list-style: none;
-  }
-  a {
-    color: black;
-    text-decoration: none;
-  }
-  #imgLogoHome {
+
+  /* #imgLogoHome {
     width: auto;
     height: 110px;
   }
   #shoppingBag {
     height: 40px;
     width: auto;
-  } */
-  .img_home_page {
-    position: static;
   }
-  /* .h1_home_page {
+   .img_home_page {
+    position: static;
+  }  .h1_home_page {
     /* position: relative; *
   
-  } */
+  } 
   .footer_img_home_page {
     width: 10%;
     height: 10%;
-  }
+  }*/
 }

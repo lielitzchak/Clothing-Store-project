@@ -24,6 +24,7 @@
     color: black;
     text-decoration: none;
   }
+  
   #imgLogoHome {
     width: auto;
     height: 110px;
@@ -32,4 +33,5 @@
     height: 40px;
     width: auto;
   }
+  
 }
