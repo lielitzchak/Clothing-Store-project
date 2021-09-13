@@ -3,20 +3,28 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    background-color: green;
   }
-  nav {
+  header {
+    background-color: #f7f6f2;
+  }
+  main {
+    background-color: #c8c6c6;
+  }
+  footer {
+    background-color: #4b6587;
+  }
+ /*  nav {
     display: flex;
     justify-content: space-between;
   }
   ul {
-    display: flex;
+    /* display: flex; 
     flex-grow: 2;
     justify-content: space-between;
     align-items: center;
   }
   ul li {
-    font-family: 'Merienda', cursive;
+    font-family: "Merienda", cursive;
     list-style: none;
   }
   a {
@@ -30,5 +38,16 @@
   #shoppingBag {
     height: 40px;
     width: auto;
+  } */
+  .img_home_page {
+    position: static;
+  }
+  /* .h1_home_page {
+    /* position: relative; *
+  
+  } */
+  .footer_img_home_page {
+    width: 10%;
+    height: 10%;
   }
 }

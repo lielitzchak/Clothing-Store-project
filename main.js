@@ -183,7 +183,6 @@ var item = [
     category: "Shirts",
     picture: ["https://did.li/2jlTY", "https://did.li/ivNw5"],
   },
-
   {
     id: "24",
     itemName: "Tie Dye High Waisted Bikini Swimsuit",
@@ -192,7 +191,6 @@ var item = [
     category: "Swimwear",
     picture: ["https://did.li/lMYYH", "https://did.li/CXqCN"],
   },
-
   {
     id: "25",
     itemName: "One Shoulder Split Cuff Bodycon Dress",
@@ -421,3 +419,9 @@ var item = [
 var theHeader = document.getElementsByTagName("header");
 var imgLogoHome = document.getElementById("imgLogoHome");
 var king = document.getElementById("king");
+
+for (let i = 0; i < item.length; i++) {
+  for (let j = 0; j < item[i].picture.length; j++) {
+    
+  }
+}
