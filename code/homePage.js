@@ -1,8 +1,10 @@
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+function clickMenu() {
+  var header_nav_home_page_for_mobile = document.getElementById(
+    "header_nav_home_page_for_mobile"
+  );
+  if (header_nav_home_page_for_mobile.style.display === "block") {
+    header_nav_home_page_for_mobile.style.display = "none";
   } else {
-    x.style.display = "block";
+    header_nav_home_page_for_mobile.style.display = "block";
   }
 }
