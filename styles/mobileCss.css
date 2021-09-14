@@ -20,7 +20,7 @@
     position: relative;
   }
 
-  .topnav #myLinks {
+  .topnav #header_nav_home_page_for_mobile {
     display: none;
   }
 
