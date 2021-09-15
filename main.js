@@ -417,8 +417,12 @@ const item = [
   },
 ];
 
+
 let theHeader = document.getElementsByTagName("header");
 let imgLogoHome = document.getElementById("imgLogoHome");
 let king = document.getElementById("king");
 let div_for_mobile_pic = document.getElementById("div_for_mobile_pic");
 let the_form = document.getElementById("the_form");
+let mobile_container = document.getElementById("mobile_container");
+let user_name = document.getElementById("user_name");
+let user_email = document.getElementById("user_email");
