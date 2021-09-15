@@ -1,4 +1,4 @@
-var comingSoonElement = document.getElementById("comingSoonElement");
+let comingSoonElement = document.getElementById("comingSoonElement");
 comingSoonElement.innerHTML = `
 <header>
     <nav>
