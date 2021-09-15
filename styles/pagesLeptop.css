@@ -1,0 +1,39 @@
+@media only screen and (min-width: 1039px) {
+  * {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  .mobile_container {
+    display: none;
+  }
+  #header_nav_home_page {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f6f2;
+  }
+  #header_ul_home_page {
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #header_ul_home_page .header_li_home_page {
+    font-family: "Merienda", cursive;
+    list-style: none;
+  }
+  #imgLogoHome {
+    width: auto;
+    height: 110px;
+  }
+  #shoppingBag {
+    height: 40px;
+    width: auto;
+  }
+  a {
+    text-decoration: none;
+  }
+  main {
+    background-color: #c8c6c6;
+  }
+}

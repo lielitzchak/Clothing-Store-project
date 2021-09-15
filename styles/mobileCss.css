@@ -5,7 +5,7 @@
     box-sizing: border-box;
   }
 
-  .m .mobile-container {
+  .m .mobile_container {
     max-width: 480px;
     margin: auto;
     background-color: #555;
@@ -39,7 +39,6 @@
     color: black;
     top: 0;
   }
-
   .active {
     background-color: #f7f6f2;
     color: black;
@@ -68,11 +67,11 @@
     width: 10%;
     height: auto;
   }
- .footer_section_home_page{
-   text-align: center;
- }
-  
-footer {
+  .footer_section_home_page {
+    text-align: center;
+  }
+
+  footer {
     background-color: #4b6587;
   }
   .footer_h5_home_page_for_mobile {
@@ -81,10 +80,10 @@ footer {
   .footer_li_home_page_for_mobile {
     display: none;
   }
-  .footer_h5_home_page{
+  .footer_h5_home_page {
     color: black;
   }
-  .footer_ul_home_page a{
+  .footer_ul_home_page a {
     list-style: none;
     text-decoration: none;
     color: black;

@@ -4,6 +4,9 @@
     border: 0;
     box-sizing: border-box;
   }
+  .mobile_container {
+    display: none;
+  }
   #header_nav_home_page {
     display: flex;
     justify-content: space-between;
@@ -30,10 +33,10 @@
   main {
     background-color: #c8c6c6;
   }
-  footer {
-    background-color: #4b6587;
-  }
-
+.section_home_page{
+  border-radius: 50px;
+  padding: 0.5%;
+}
   a {
     color: black;
     text-decoration: none;
@@ -48,10 +51,13 @@
     height: 40%;
     border-radius: 50px;
   }
-  
+
   .h1_home_page {
     font-family: "Merienda", cursive;
     font-size: 80px;
+  }
+  footer {
+    background-color: #4b6587;
   }
   #footer_div_home_page {
     display: flex;
@@ -72,7 +78,7 @@
     padding: 10px 25px;
     border: 2px solid;
     border-radius: 10px;
-    
+
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
