@@ -57,26 +57,51 @@
   main {
     background-color: #c8c6c6;
   }
-  footer {
+  .h1_home_page {
+    display: none;
+  }
+  .img_home_page {
+    width: 99%;
+    height: auto;
+  }
+  .pic_for_home_page_mobile {
+    width: 10%;
+    height: auto;
+  }
+ .footer_section_home_page{
+   text-align: center;
+ }
+  
+footer {
     background-color: #4b6587;
   }
-
-  /* #imgLogoHome {
-    width: auto;
-    height: 110px;
+  .footer_h5_home_page_for_mobile {
+    display: none;
   }
-  #shoppingBag {
-    height: 40px;
-    width: auto;
+  .footer_li_home_page_for_mobile {
+    display: none;
   }
-   .img_home_page {
-    position: static;
-  }  .h1_home_page {
-    /* position: relative; *
-  
-  } 
+  .footer_h5_home_page{
+    color: black;
+  }
+  .footer_ul_home_page a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
   .footer_img_home_page {
     width: 10%;
-    height: 10%;
-  }*/
+    height: auto;
+  }
+  .footer_h5_home_page {
+    font-size: 145%;
+  }
+  .footer_input_home_page {
+    width: 40%;
+    height: auto;
+  }
+  .footer_btn_home_page {
+    width: 40%;
+    border-radius: 44px;
+  }
 }

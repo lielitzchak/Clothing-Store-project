@@ -1,4 +1,4 @@
-var item = [
+const item = [
   {
     id: "1",
     itemName: "Notch Neck Puff Sleeve Ditsy Floral Blouse",
@@ -416,12 +416,9 @@ var item = [
     picture: ["https://did.li/sHfaa", "https://did.li/JSHNf"],
   },
 ];
-var theHeader = document.getElementsByTagName("header");
-var imgLogoHome = document.getElementById("imgLogoHome");
-var king = document.getElementById("king");
 
-for (let i = 0; i < item.length; i++) {
-  for (let j = 0; j < item[i].picture.length; j++) {
-    
-  }
-}
+let theHeader = document.getElementsByTagName("header");
+let imgLogoHome = document.getElementById("imgLogoHome");
+let king = document.getElementById("king");
+let div_for_mobile_pic = document.getElementById("div_for_mobile_pic");
+let the_form = document.getElementById("the_form");

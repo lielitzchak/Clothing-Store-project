@@ -21,7 +21,7 @@
       <div>
         <div class="mobile-container">
 
-          <!-- Top Navigation Menu -->
+          <!-- Navigation Menu -->
           <div class="topnav">
             <a href="#home" class="active"><img id="header_shopping_bag_mobile" src="media/photos/icons8-shopping-bag-50.png" alt=""></a>
             <div id="header_nav_home_page_for_mobile">
@@ -38,14 +38,12 @@
             </a>
           </div>
       </div>
+                <!--up Navigation Menu -->
+
        <nav id="header_nav_home_page">
         <ul id="header_ul_home_page">
-          <a href="index.html"
-            ><img
-              src="mediahotos/logo_size_fav-removebg-preview.png"
-              id="imgLogoHome"
-              alt=""
-          /></a>
+          <!-- <a href="index.html"><img src="mediahotos/logo_size_fav-removebg-preview.png"  id="imgLogoHome" alt=""
+          /></a> -->
           <a href="pages/shirts.html"
             ><li class="header_li_home_page">Shirts</li></a
           >
@@ -76,7 +74,7 @@
         </ul>
       </nav> 
     </header>
-    <!-- <main>
+    <main>
       <a href="pages/shirts.html" class="a_home_page">
         <section class="section_home_page">
           <h1 class="h1_home_page">shirt</h1>
@@ -143,32 +141,33 @@
           />
         </section>
       </a>
+      <div id="div_for_mobile_pic"></div>
     </main>
     <footer>
       <div id="footer_div_home_page">
         <section class="footer_section_home_page">
           <ul class="footer_ul_home_page">
-            <h5 class="footer_h5_home_page">category</h5>
+            <h5 class="footer_h5_home_page footer_h5_home_page_for_mobile">category</h5>
             <br />
-            <li>
+            <li class="footer_li_home_page footer_li_home_page_for_mobile">
               <a href="pages/shirts.html"><p>shirt</p></a>
             </li>
-            <li>
+            <li class="footer_li_home_page footer_li_home_page_for_mobile">
               <a href="pages/Swimwear.html"><p>swimwear</p></a>
             </li>
-            <li>
+            <li class="footer_li_home_page footer_li_home_page_for_mobile">
               <a href="pages/comingSoon.html"><p>accessories</p></a>
             </li>
-            <li>
+            <li class="footer_li_home_page footer_li_home_page_for_mobile">
               <a href="pages/comingSoon.html"><p>bags</p></a>
             </li>
-            <li>
+            <li  class="footer_li_home_page footer_li_home_page_for_mobile">
               <a href="pages/comingSoon.html"><p>shoes</p></a>
             </li>
-            <li>
+            <li  class="footer_li_home_page footer_li_home_page_for_mobile">
               <a href="pages/dresses.html"><p>dresses</p></a>
             </li>
-            <li>
+            <li class="footer_li_home_page footer_li_home_page_for_mobile">
               <a href="pages/pants.html"><p>pants</p></a>
             </li>
           </ul>
@@ -177,16 +176,16 @@
           <h5 class="footer_h5_home_page">help & support & Customer care</h5>
           <br />
           <ul class="footer_ul_home_page">
-            <a href=""> <li>terms & conditions</li></a>
             <a href=""> <li>privacy & cookie policy</li></a>
+            <a href=""> <li>terms & conditions</li></a>
             <a href=""> <li>privacy & center</li></a>
             <a href=""> <li>copyright notice</li></a>
-            <a href=""> <li>help</li></a>
             <a href=""> <li>Customer Service</li></a>
+            <a href=""> <li>help</li></a>
           </ul>
         </section>
         <section class="footer_section_home_page">
-          <h5 class="footer_h5_home_page">conect us:</h5>
+          <h5 class="footer_h5_home_page"> conect us:</h5>
           <br />
           <a href="https://github.com/lielitzchak"
             ><img
@@ -214,7 +213,7 @@
           /></a>
         </section>
         <section class="footer_section_home_page">
-          <form action="">
+          <form action="" id="the_form">
             <h5 class="footer_h5_home_page">for our Newsletter:</h5>
             <br />
             <label class="footer_ladel_home_page" for="">full name:</label
@@ -226,13 +225,22 @@
               required
               type="email"
               name=""
-            /><br /><br />
+            /><br>
+            
+            <label class="footer_label_home_page" for="">write your email again:</label><br />
+            <input
+              class="footer_input_home_page"
+              required
+              type="email"
+              name=""
+            />
+            <div id="for_massage"></div><br />
             <button class="footer_btn_home_page footer_butn">send</button>
           </form>
         </section>
       </div>
       <br />
-    </footer> -->
+    </footer> 
     <div id="theBigDiv"></div>
     <script src="main.js"></script>
     <!-- <script src="code/homePage.js"></script> -->
