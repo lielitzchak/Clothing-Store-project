@@ -1,37 +1,105 @@
 /* לטבלט */
-@media only screen and (min-device-width: 426px) and (max-device-width: 1038px) {
   * {
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    background-color: darkslateblue;
   }
-  nav {
-    display: flex;
-    justify-content: space-between;
+  .m .mobile_container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
   }
-  ul {
-    display: flex;
-    flex-grow: 2;
-    justify-content: space-between;
-    align-items: center;
+
+  .topnav {
+    overflow: hidden;
+    background-color: #c8c6c6;
+    position: relative;
   }
-  ul li {
-    font-family: 'Merienda', cursive;
-    list-style: none;
+
+  .topnav #header_nav_home_page_for_mobile {
+    display: none;
   }
-  a {
+
+  .topnav a {
     color: black;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
+    display: block;
   }
-  
-  #imgLogoHome {
-    width: auto;
-    height: 110px;
+
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    color: black;
+    top: 0;
   }
-  #shoppingBag {
-    height: 40px;
-    width: auto;
+  .active {
+    background-color: #f7f6f2;
+    color: black;
   }
-  
-}
+  #header_nav_home_page {
+    display: none;
+  }
+  #header_shopping_bag_mobile {
+    width: 7%;
+    height: auto;
+  }
+  header {
+    background-color: #f7f6f2;
+  }
+  main {
+    background-color: #c8c6c6;
+  }
+  .h1_home_page {
+    display: none;
+  }
+  .img_home_page {
+    width: 99%;
+    height: auto;
+  }
+  .pic_for_home_page_mobile {
+    width: 10%;
+    height: auto;
+  }
+  .footer_section_home_page {
+    text-align: center;
+  }
+
+  footer {
+    background-color: #4b6587;
+  }
+  .footer_h5_home_page_for_mobile {
+    display: none;
+  }
+  .footer_li_home_page_for_mobile {
+    display: none;
+  }
+  .footer_h5_home_page {
+    color: black;
+  }
+  .footer_ul_home_page a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+  .footer_img_home_page {
+    width: 10%;
+    height: auto;
+  }
+  .footer_h5_home_page {
+    font-size: 145%;
+  }
+  .footer_input_home_page {
+    width: 40%;
+    height: auto;
+  }
+  .footer_btn_home_page {
+    width: 40%;
+    border-radius: 44px;
+  }
+
