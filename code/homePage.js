@@ -11,7 +11,7 @@ function clickMenu() {
   }
 }
 
-the_form.onSubmit = (event) => {
+the_form.onsubmit = (event) => {
   event.preventDefault();
   let user_email_test = document.getElementById("user_email_test");
 
@@ -19,9 +19,9 @@ the_form.onSubmit = (event) => {
 };
 
 function Check_if_similar(testOne, test_two) {
-  if (testOne.value === test_two.value) {
+  if (testOne.value == test_two.value) {
     alert("good");
   } else {
-    alert("not the same");
+    alert("your email is not the same ' please chack againg ");
   }
 }
