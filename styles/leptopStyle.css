@@ -4,13 +4,17 @@
     border: 0;
     box-sizing: border-box;
   }
+  header {
+    padding: 2%;
+    background-color: #f7f6f2;
+
+  }
   .mobile_container {
     display: none;
   }
   #header_nav_home_page {
     display: flex;
     justify-content: space-between;
-    background-color: #f7f6f2;
   }
   #header_ul_home_page {
     display: flex;
