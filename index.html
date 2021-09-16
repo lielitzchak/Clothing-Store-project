@@ -21,15 +21,15 @@
       <div>
         <div class="mobile_container">
           <div class="topnav">
-            <a href="#home" class="active"><img id="header_shopping_bag_mobile" src="media/photos/icons8-shopping-bag-50.png" alt=""></a>
+            <a href="pages/shoppingBag.html" class="active"><img id="header_shopping_bag_mobile" src="media/photos/icons8-shopping-bag-50.png" alt=""></a>
             <div id="header_nav_home_page_for_mobile">
-              <a href="ages/shirts.html">Shirts</a>
-              <a href="ages/dresses.html">dresses</a>
+              <a href="pages/shirts.html">Shirts</a>
+              <a href="pages/dresses.html">dresses</a>
               <a href="pages/comingSoon.html">Shoes</a>
               <a href="pages/comingSoon.html">Bags</a>
               <a href="pages/comingSoon.html">accessories</a>
-              <a href="ages/Swimwear.html">Swimwear</a>
-              <a href="ages/pants.html">pants</a>
+              <a href="pages/Swimwear.html">Swimwear</a>
+              <a href="pages/pants.html">pants</a>
             </div>
             <a class="icon" onclick="clickMenu()">
             <img src="media/photos/icons8-menu-24.png" alt="">  <i class="fa fa-bars"></i>
@@ -213,23 +213,24 @@
           <form  id="the_form">
             <h5 class="footer_h5_home_page">for our Newsletter:</h5>
             <br />
-            <label class="footer_ladel_home_page" for="">full name:</label><br />
-            <input class="footer_input_home_page" id="user_name"  type="text" />
+            <label class="footer_ladel_home_page"  for="">full name:</label><br />
+            <input class="footer_input_home_page" required id="user_name"  type="text" />
             <br />
 
 
             <label class="footer_label_home_page" for="">email:</label><br />
-            <input  class="footer_input_home_page"  id="user_email" type="email" name=""/>
+            <input  class="footer_input_home_page" required id="user_email" type="email" name=""/>
               
               <br>
             
             <label class="footer_label_home_page" for="">write your email again:</label><br />
-            <input class="footer_input_home_page" id="user_email_test"  type="email" name=""/>
+            <input class="footer_input_home_page" required id="user_email_test"  type="email" name=""/>
             
             
-            <div id="for_massage"></div><br />
+            <br /><br>
             <button id="btn_Newsletter" class="footer_btn_home_page footer_butn">send</button>
-          </form>
+          <div id="for_massage"></div>
+        </form>
         </section>
       </div>
       <br />
