@@ -19,9 +19,12 @@ the_form.onsubmit = (event) => {
 };
 
 function Check_if_similar(testOne, test_two) {
-  if (testOne.value == test_two.value) {
-    alert("good");
+  if (testOne.value === test_two.value) {
+    for_massage.innerHTML ="your details saves and you in our Newsletter"
+    let new_user = { name: user_name_input, email: user_email_input };
+    User_details.push(new_user);
   } else {
-    alert("your email is not the same ' please chack againg ");
+    alert("your email is not the same ,please write again ");
   }
 }
+console.log(User_details);

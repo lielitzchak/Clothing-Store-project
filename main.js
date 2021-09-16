@@ -417,7 +417,6 @@ const item = [
   },
 ];
 
-
 let theHeader = document.getElementsByTagName("header");
 let imgLogoHome = document.getElementById("imgLogoHome");
 let king = document.getElementById("king");
@@ -426,3 +425,5 @@ var the_form = document.getElementById("the_form");
 let mobile_container = document.getElementById("mobile_container");
 let user_name_input = document.getElementById("user_name");
 let user_email_input = document.getElementById("user_email");
+const User_details = [{ name: "liel", email: "liel@gmail.com" }];
+let for_massage = document.getElementById("for_massage")
