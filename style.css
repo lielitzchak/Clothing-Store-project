@@ -55,9 +55,7 @@
   main {
     background-color: #c8c6c6;
   }
-  .h1_home_page {
-    display: none;
-  }
+   
   .img_home_page {
     width: 99%;
     height: auto;
@@ -74,10 +72,10 @@
     background-color: #4b6587;
   }
   .footer_h5_home_page_for_mobile {
-    display: none;
+    /* display: none; */
   }
   .footer_li_home_page_for_mobile {
-    display: none;
+    /* display: none; */
   }
   .footer_h5_home_page {
     color: black;
