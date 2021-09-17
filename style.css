@@ -12,7 +12,6 @@
     color: white;
     border-radius: 10px;
   }
-
   .topnav {
     overflow: hidden;
     background-color: #c8c6c6;
@@ -55,7 +54,7 @@
   main {
     background-color: #c8c6c6;
   }
-   
+  
   .img_home_page {
     width: 99%;
     height: auto;
@@ -67,15 +66,8 @@
   .footer_section_home_page {
     text-align: center;
   }
-
   footer {
     background-color: #4b6587;
-  }
-  .footer_h5_home_page_for_mobile {
-    /* display: none; */
-  }
-  .footer_li_home_page_for_mobile {
-    /* display: none; */
   }
   .footer_h5_home_page {
     color: black;
@@ -93,11 +85,10 @@
     font-size: 145%;
   }
   .footer_input_home_page {
-    width: 40%;
+    width: 98%;
     height: auto;
   }
   .footer_btn_home_page {
     width: 40%;
     border-radius: 44px;
   }
-
