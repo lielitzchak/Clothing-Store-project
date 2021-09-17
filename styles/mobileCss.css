@@ -1,4 +1,4 @@
-@media only screen and (min-device-width: 5px) and (max-device-width: 425px) {
+@media only screen and (min-device-width: 5px) and (max-device-width: 512px) {
   * {
     margin: 0;
     border: 0;
@@ -22,6 +22,11 @@
 
   .topnav #header_nav_home_page_for_mobile {
     display: none;
+    font-family: "Delius", cursive;
+    font-family: "Exo 2", sans-serif;
+    font-family: "GFS Neohellenic", sans-serif;
+    font-family: "Merriweather Sans", sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
   }
 
   .topnav a {
@@ -82,11 +87,18 @@
   }
   .footer_h5_home_page {
     color: black;
+    font-family: "Merienda", cursive;
+    font-family: "Voltaire", sans-serif;
   }
-  .footer_ul_home_page a {
+  .footer_ul_home_page {
     list-style: none;
     text-decoration: none;
     color: black;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-family: "Allura", cursive;
+    font-family: "Merienda", cursive;
+    font-family: "Sriracha", cursive;
+    font-family: "Voltaire", sans-serif;
   }
   .footer_img_home_page {
     width: 10%;
@@ -102,5 +114,24 @@
   .footer_btn_home_page {
     width: 40%;
     border-radius: 44px;
+    font-family: "Allura", cursive;
+    font-family: "Merienda", cursive;
+    font-family: "Sriracha", cursive;
+    font-family: "Voltaire", sans-serif;
+  }
+  #All_rights_reserved {
+    font-family: "Delius", cursive;
+    font-family: "Exo 2", sans-serif;
+    font-family: "Fleur De Leah", cursive;
+    font-family: "GFS Neohellenic", sans-serif;
+    font-family: "Merriweather Sans", sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
+  }
+
+  label {
+    font-family: "Allura", cursive;
+    font-family: "Merienda", cursive;
+    font-family: "Sriracha", cursive;
+    font-family: "Voltaire", sans-serif;
   }
 }
