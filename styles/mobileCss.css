@@ -19,7 +19,10 @@
     background-color: #c8c6c6;
     position: relative;
   }
-
+a{
+  text-decoration: none;
+  color: black;
+}
   .topnav #header_nav_home_page_for_mobile {
     display: none;
     font-family: "Delius", cursive;
