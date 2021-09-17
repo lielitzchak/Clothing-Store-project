@@ -22,7 +22,7 @@ for (let i = 0; i < item.length; i++) {
         </section>
         <section class="section_category_mobile"> 
           <a href="">
-          <img class="img_category_mobile"  src="${item[i].picture[0]}" alt=""> 
+          <img class="img_category_mobile"  src="${item[i+2].picture[0]}" alt=""> 
           <p>${item[i].itemName}</p>
           <p>$ ${item[i].price}</p>
           <p>add/delete from shopping bag</p></a>
