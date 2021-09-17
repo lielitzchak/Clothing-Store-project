@@ -426,4 +426,6 @@ let mobile_container = document.getElementById("mobile_container");
 let user_name_input = document.getElementById("user_name");
 let user_email_input = document.getElementById("user_email");
 const User_details = [{ name: "liel", email: "liel@gmail.com" }];
-let for_massage = document.getElementById("for_massage")
+let for_massage = document.getElementById("for_massage");
+let div_for_main = document.getElementById("div_for_main");
+let img_category_mobile = document.getElementById("img_category_mobile");
