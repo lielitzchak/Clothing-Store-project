@@ -1,4 +1,5 @@
 // להעביר את הפונקציה הזו לטלפון , אם זה רלוונטי
+import the_form from '../main'
 
 function clickMenu() {
   let header_nav_home_page_for_mobile = document.getElementById(
@@ -27,4 +28,4 @@ function Check_if_similar(testOne, test_two) {
     alert("your email is not the same ,please write again ");
   }
 }
-console.log(User_details);
+console.log("khjj");

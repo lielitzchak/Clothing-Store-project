@@ -215,14 +215,14 @@ const item = [
     category: "Swimwear",
     picture: ["https://did.li/9RHNf", "https://did.li/p40ql"],
   },
-  {
-    id: "28",
-    itemName: "Lapel Collar Pocket Blouse",
-    price: 60,
-    description: "",
-    category: "Shirts",
-    picture: ["https://did.li/830ql", "https://did.li/oeC5q"],
-  },
+  // {
+  //   id: "28",
+  //   itemName: "Lapel Collar Pocket Blouse",
+  //   price: 60,
+  //   description: "",
+  //   category: "Shirts",
+  //   picture: ["https://did.li/830ql", "https://did.li/oeC5q"],
+  // },
   {
     id: "29",
     itemName: "Sheer Mesh Overlay Hem Bustier Cami Dress",
@@ -425,7 +425,8 @@ var the_form = document.getElementById("the_form");
 let mobile_container = document.getElementById("mobile_container");
 let user_name_input = document.getElementById("user_name");
 let user_email_input = document.getElementById("user_email");
-const User_details = [{ name: "liel", email: "liel@gmail.com" }];
 let for_massage = document.getElementById("for_massage");
 let div_for_main = document.getElementById("div_for_main");
 let img_category_mobile = document.getElementById("img_category_mobile");
+
+
