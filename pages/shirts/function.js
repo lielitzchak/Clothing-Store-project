@@ -1,5 +1,3 @@
-
-
 clickMenu();
 toggleImage();
 function clickMenu() {
@@ -18,7 +16,6 @@ function toggleImage(evt) {
 
   const src1 = evt.target.getAttribute("src");
   const dataAttrImgUrl = evt.target.getAttribute("data-img2");
-
   evt.target.setAttribute("src", dataAttrImgUrl);
   evt.target.setAttribute("data-img2", src1);
   console.log({ src1, dataAttrImgUrl });
