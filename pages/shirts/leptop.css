@@ -98,12 +98,21 @@
     border-radius: 10px;
     padding: 0.5%;
   }
-  .shopping_img_cart {
-    width: 7%;
+  .shopping_img_cart_add {
+    width: 3%;
     height: auto;
     position: absolute;
     bottom: 9%;
     left: 26%;
+  }
+  .shopping_img_cart_remove{
+    border-radius: 10px;
+    padding: 0.5%;
+    width: 3%;
+    height: auto;
+    position: absolute;
+    bottom: 9%;
+    left: 35%;
   }
   .sort_by {
     display: flex;
