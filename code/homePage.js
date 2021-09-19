@@ -1,5 +1,4 @@
 // להעביר את הפונקציה הזו לטלפון , אם זה רלוונטי
-import the_form from '../main'
 
 function clickMenu() {
   let header_nav_home_page_for_mobile = document.getElementById(
@@ -21,11 +20,11 @@ the_form.onsubmit = (event) => {
 
 function Check_if_similar(testOne, test_two) {
   if (testOne.value === test_two.value) {
-    for_massage.innerHTML ="your details saves and you in our Newsletter"
+    for_massage.innerHTML =
+      "<p>your details saves and <br> you in our Newsletter</p>";
     let new_user = { name: user_name_input, email: user_email_input };
     User_details.push(new_user);
   } else {
     alert("your email is not the same ,please write again ");
   }
 }
-console.log("khjj");
