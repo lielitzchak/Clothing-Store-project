@@ -416,6 +416,40 @@ const item = [
     picture: ["https://did.li/sHfaa", "https://did.li/JSHNf"],
   },
 ];
+const item_for_cart = [
+  {
+    id: "52",
+    itemName: "MOTF PREMIUM 100% SILK GRADE 6A 22MM BLOUSE",
+    price: 268,
+    description: "",
+    category: "Shirts",
+    picture: ["https://did.li/sHfaa", "https://did.li/JSHNf"],
+  },
+  {
+    id: "49",
+    itemName: "Contrast Mesh Ruffle One Piece Swimsuit",
+    price: 54,
+    description: "",
+    category: "Swimwear",
+    picture: ["https://did.li/Z40ql", "https://did.li/gfC5q"],
+  },
+  {
+    id: "50",
+    itemName: "SXY High Waist Bleach Wash Skinny Jeans",
+    price: 50,
+    description: "",
+    category: "pants",
+    picture: ["https://did.li/D0SfT", "https://did.li/UklTY"],
+  },
+  {
+    id: "51",
+    itemName: "Appliques Maxi Chiffon Prom Dress",
+    price: 174,
+    description: "",
+    category: "dresses",
+    picture: ["https://did.li/140ql", "https://did.li/hfC5q"],
+  },
+];
 
 let theHeader = document.getElementsByTagName("header");
 let imgLogoHome = document.getElementById("imgLogoHome");
@@ -428,7 +462,11 @@ let user_email_input = document.getElementById("user_email");
 let for_massage = document.getElementById("for_massage");
 let div_for_main = document.getElementById("div_for_main");
 let img_category_mobile = document.getElementById("img_category_mobile");
-const cheap_to_expensive = document.getElementById("cheap_to_expensive");
 const shopping_cart_img = "/media/photos/shopping-cart.png";
 const delete_item = "/media/photos/icons8-delete-50.png";
 const User_details = [{ name: "liel", email: "liel@gmail" }];
+const expensive_to__cheap = document.getElementById("expensive_to__cheap");
+const cheap_to_expensive = document.getElementById("cheap_to_expensive");
+const sort_random = document.getElementById("sort_random");
+const div_for_scrip = document.getElementById("div_for_scrip");
+const cart = ["jh"];
