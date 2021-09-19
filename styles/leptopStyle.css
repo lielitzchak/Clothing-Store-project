@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1039px) and (max-device-width:2000px) {
+@media only screen and (min-width: 1039px) and (max-device-width: 2000px) {
   * {
     margin: 0;
     border: 0;
@@ -23,6 +23,8 @@
   }
   .header_li_home_page {
     font-size: 180%;
+    transition: 0.5s;
+    transition-timing-function: linear;
   }
   .header_li_home_page:hover {
     font-size: 190%;
@@ -38,6 +40,8 @@
   #shoppingBag {
     height: 40px;
     width: auto;
+    transition: 1s;
+    transition-timing-function: linear;
   }
   #shoppingBag:hover {
     height: 42px;
@@ -177,7 +181,7 @@
     font-family: "Merienda", cursive;
     font-family: "Voltaire", sans-serif;
   }
-  label{
+  label {
     font-family: "Allura", cursive;
     font-family: "Merienda", cursive;
     font-family: "Sriracha", cursive;
