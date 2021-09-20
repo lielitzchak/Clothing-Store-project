@@ -18,10 +18,7 @@ function toggleImage(e) {
   e.target.setAttribute("data-img2", src1);
 }
 
-cart.push(
-  "משה"
-)
-console.log(cart);
+  
 // !const array = ['4'];
 
 //! array.push('7');
