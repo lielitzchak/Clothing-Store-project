@@ -450,7 +450,17 @@ const item_for_cart = [
     picture: ["https://did.li/140ql", "https://did.li/hfC5q"],
   },
 ];
-
+const shopping_cart_img = "/media/photos/shopping-cart.png";
+const delete_item = "/media/photos/icons8-delete-50.png";
+const User_details = [{ name: "liel", email: "liel@gmail" }];
+const expensive_to__cheap = document.getElementById("expensive_to__cheap");
+const cheap_to_expensive = document.getElementById("cheap_to_expensive");
+const sort_random = document.getElementById("sort_random");
+const div_for_scrip = document.getElementById("div_for_scrip");
+const shopping_img_cart_add = document.getElementById("shopping_img_cart_add");
+const click_to_add_to_the_cart = document.getElementById(
+  "click_to_add_to_the_cart"
+);
 let theHeader = document.getElementsByTagName("header");
 let imgLogoHome = document.getElementById("imgLogoHome");
 let king = document.getElementById("king");
@@ -462,16 +472,6 @@ let user_email_input = document.getElementById("user_email");
 let for_massage = document.getElementById("for_massage");
 let div_for_main = document.getElementById("div_for_main");
 let img_category_mobile = document.getElementById("img_category_mobile");
-const shopping_cart_img = "/media/photos/shopping-cart.png";
-const delete_item = "/media/photos/icons8-delete-50.png";
-const User_details = [{ name: "liel", email: "liel@gmail" }];
-const expensive_to__cheap = document.getElementById("expensive_to__cheap");
-const cheap_to_expensive = document.getElementById("cheap_to_expensive");
-const sort_random = document.getElementById("sort_random");
-const div_for_scrip = document.getElementById("div_for_scrip");
-const cart = [{}];
-const shopping_img_cart_add = document.getElementById("shopping_img_cart_add");
-const click_to_add_to_the_cart = document.getElementById(
-  "click_to_add_to_the_cart"
-);
+
 const the_table = document.getElementById("the_table");
+let cart = [];
