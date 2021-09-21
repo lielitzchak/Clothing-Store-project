@@ -5,9 +5,9 @@ for (let i = 0; i < item.length; i++) {
             <section  class="section_category_mobile">
                 <img onclick="toggleImage(event)" data-img2="${item[i].picture[1]}" class="img_category_mobile first" src="${item[i].picture[0]}" alt="">
                 <div class="add-link">
-                <p class="item_name"> Item name: ${item[i].itemName}</p>
-                <p class="click_to_add_to_the_cart">id: ${item[i].id}</p>
-                <p class="item_price">Item price: $${item[i].price}</p>
+                <p class="item_name"> <b>Item name:</b> ${item[i].itemName}</p>
+                <p class="click_to_add_to_the_cart"><b>id:</b> ${item[i].id}</p>
+                <p class="item_price"><b>Item price:</b> $${item[i].price}</p>
                 </div>
                 <div>
                 <a href="javascript:void(0)" id="add_${item[i].id}"> <img src="${shopping_cart_img}" class="shopping_img_cart_add add_${item[i].id}"> </a>
@@ -18,7 +18,6 @@ for (let i = 0; i < item.length; i++) {
                 </section>
         </div>`;
   }
- 
 }
 
 // ! its work
