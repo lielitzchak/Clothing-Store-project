@@ -1,0 +1,57 @@
+@media only screen and (min-width: 1039px) and (max-device-width: 2000px) {
+  * {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  header {
+    padding: 2%;
+    background-color: #f7f6f2;
+  }
+  .mobile_container {
+    display: none;
+  }
+  #header_nav_home_page {
+    display: flex;
+    justify-content: space-between;
+  }
+  #header_ul_home_page {
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header_li_home_page {
+    font-size: 180%;
+    transition: 0.5s;
+    transition-timing-function: linear;
+  }
+  .header_li_home_page:hover {
+    font-size: 190%;
+  }
+  #header_ul_home_page .header_li_home_page {
+    font-family: "Merienda", cursive;
+    list-style: none;
+  }
+  #imgLogoHome {
+    width: auto;
+    height: 110px;
+  }
+  #shoppingBag {
+    height: 40px;
+    width: auto;
+    transition: 1s;
+    transition-timing-function: linear;
+  }
+  #shoppingBag:hover {
+    height: 42px;
+    width: auto;
+  }
+  main {
+    background-color: #c8c6c6;
+  }
+  a {
+      color: black;
+      text-decoration: none;
+  }
+}
