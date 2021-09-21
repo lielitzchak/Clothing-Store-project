@@ -1,4 +1,16 @@
-let myarr = [
+function clickMenu() {
+  let header_nav_home_page_for_mobile = document.getElementById(
+    "header_nav_home_page_for_mobile"
+  );
+  if (header_nav_home_page_for_mobile.style.display === "block") {
+    header_nav_home_page_for_mobile.style.display = "none";
+  } else {
+    header_nav_home_page_for_mobile.style.display = "block";
+  }
+}
+const enterJS = document.getElementById("enterJS");
+
+let my_array = [
   {
     id: "52",
     itemName: "MOTF PREMIUM 100% SILK GRADE 6A 22MM BLOUSE",
@@ -39,10 +51,10 @@ function removeOne(num) {
   }
   return x;
 }
-console.log(myarr);
+console.log(my_array);
 
 const btn = document.getElementById("btn");
 btn.onclick = () => {
-  console.log(removeOne(myarr));
-  console.log(myarr);
+  console.log(removeOne(my_array));
+  console.log(my_array);
 };
