@@ -49,11 +49,20 @@
     </header>
     <main>
       <hr>
-      <ul class="sort_by">
+      <div class="sort_by">
           <a href="" id="cheap_to_expensive"><ol>Sort from the cheap expensive</ol></a>
          <a href="" id="expensive_to__cheap"><ol>Sort from expensive to cheap</ol></a> 
       <div> <input type="text" placeholder="Search..." > <button>Search</button></div> 
-      </ul>
+      </div>
+      <form id="sort_by_mobile">
+        <label for="">choose options:</label>
+        <select name="" id="" >
+          <option selected="true" disabled="disabled">sort by...</option>    
+          <option id="cheap_to_expensive_mobile" value="">cheap expensive</option>
+          <option id="expensive_to__cheap_mobile" value="">expensive to cheap</option>
+        </select>
+        <button>Search</button>
+      </form>
       <hr>
      <div  id="div_for_main"></div>
     </main>
