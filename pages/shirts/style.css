@@ -1,2 +1,132 @@
 @media only screen and (min-width: 513px) and (max-device-width: 1038px) {
+  .m .mobile_container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #c8c6c6;
+    position: relative;
+  }
+  .topnav #header_nav_home_page_for_mobile {
+    display: none;
+  }
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    color: black;
+    top: 0;
+  }
+  .active {
+    background-color: #f7f6f2;
+    color: black;
+  }
+  #header_nav_home_page {
+    display: none;
+  }
+  #header_shopping_bag_mobile {
+    width: 7%;
+    height: auto;
+  }
+  header {
+    background-color: #f7f6f2;
+  }
+  main {
+    background-color: #c8c6c6;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  #sort_by_mobile {
+    display: none;
+  }
+
+  .section_category_mobile {
+    display: flex;
+    padding: 2%;
+    position: relative;
+  }
+
+  .text_on_img {
+    position: absolute;
+    bottom: 14%;
+    left: 5%;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    padding: 0.2%;
+    animation: shadow-inset-top-text_on_img 0.4s
+      cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  @keyframes shadow-inset-top-text_on_img {
+    0% {
+      box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      box-shadow: inset 0 6px 14px -6px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .img_category_mobile {
+    width: 24%;
+    height: auto;
+    padding: 2%;
+    border-radius: 33px;
+    animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  @keyframes shadow-drop-center {
+    0% {
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  .item_name,
+  .item_price {
+    padding-left: 3%;
+    font-size: 168%;
+  }
+  .section_home_page {
+    border-radius: 10px;
+    padding: 0.5%;
+  }
+  .shopping_img_cart_add {
+    width: 3%;
+    height: auto;
+    position: absolute;
+    bottom: 9%;
+    left: 32%;
+  }
+  .shopping_img_cart_remove {
+    border-radius: 10px;
+    padding: 0.5%;
+    width: 3%;
+    height: auto;
+    position: absolute;
+    bottom: 7%;
+    left: 38%;
+  }
+  .sort_by {
+    display: flex;
+    background-color: #807e7e;
+    padding: 1%;
+    font-family: "Kalam", cursive;
+    justify-content: space-between;
+  }
+  hr {
+    display: none;
+  }
 }
