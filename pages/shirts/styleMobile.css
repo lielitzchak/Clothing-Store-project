@@ -57,6 +57,7 @@
   }
   .div_for_sections {
     display: flex;
+    position: relative;
   }
   .add-link {
     width: 100%;
@@ -71,14 +72,36 @@
   .img_category_mobile {
     width: 100%;
     height: auto;
-    animation: shadow-drop-2-tb 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    position: relative;
+
   }
-  .add-link{
-    width: 100%;
+  #sort_by_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  }
+  .add-link {
+    width: 47%;
     height: 50%;
     background-color: tomato;
   }
   .shopping_img_cart_add {
+    position: absolute;
+    left: 83%;
+    bottom: 5%;
     width: 10%;
   }
+  .shopping_img_cart_remove {
+    position: absolute;
+    left: 63%;
+    bottom: 5%;
+  }
+  
+  .text_on_img {
+    bottom: 17%;
+    left: 25%;
+    position: absolute;
+  }
+ 
 }
