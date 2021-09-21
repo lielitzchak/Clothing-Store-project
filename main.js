@@ -474,3 +474,4 @@ const shopping_img_cart_add = document.getElementById("shopping_img_cart_add");
 const click_to_add_to_the_cart = document.getElementById(
   "click_to_add_to_the_cart"
 );
+const the_table = document.getElementById("the_table");

@@ -8,15 +8,16 @@ for (let i = 0; i < item.length; i++) {
                 <p class="item_name"> Item name: ${item[i].itemName}</p>
                 <p class="click_to_add_to_the_cart">id: ${item[i].id}</p>
                 <p class="item_price">Item price: $${item[i].price}</p></div>
-                <a href="javascript:void(0)" id="add_${item[i].id}"> <img src="${shopping_cart_img}" class="shopping_img_cart_add"> </a>
+                <a href="javascript:void(0)" id="add_${item[i].id}"> <img src="${shopping_cart_img}" class="shopping_img_cart_add add_${item[i].id}"> </a>
                 <a href="javascript:void(0)" id="remove_${item[i].id}"><img src="${delete_item}" class="shopping_img_cart_remove"> </a>
                 <p class="text_on_img">Click on the image to see more</p>
             </section>
         </div>`;
   }
+ 
 }
 
-
+// ! its work
 expensive_to__cheap.onclick = (e) => {
   e.preventDefault();
   item.sort((a, b) => {
@@ -28,7 +29,7 @@ expensive_to__cheap.onclick = (e) => {
     })
   );
 };
-
+// ! its work
 cheap_to_expensive.onclick = (e) => {
   e.preventDefault();
   console.log(
