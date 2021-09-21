@@ -46,20 +46,3 @@ btn.onclick = () => {
   console.log(removeOne(myarr));
   console.log(myarr);
 };
-
-{
-  /* <tr>
-       <th>id</th>
-       <th>picture:</th>
-        <th>description:</th>  
-        <th> category:</th>
-       <th>price:</th>
-       <th>*</th>
-    </tr>
-   <td id =""></td>
-   <td id=""></td>
-   <td id=""></td>
-   <td id=""></td>
-   <td id=""></td>
-   <td id=""></td> */
-}
