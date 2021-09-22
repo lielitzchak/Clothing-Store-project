@@ -452,7 +452,6 @@ const item_for_cart = [
 ];
 const shopping_cart_img = "/media/photos/shopping-cart.png";
 const delete_item = "/media/photos/icons8-delete-50.png";
-const User_details = [{ name: "liel", email: "liel@gmail" }];
 const expensive_to__cheap = document.getElementById("expensive_to__cheap");
 const cheap_to_expensive = document.getElementById("cheap_to_expensive");
 const sort_random = document.getElementById("sort_random");

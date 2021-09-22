@@ -20,7 +20,8 @@ for (let i = 0; i < item.length; i++) {
                 <p class="item_price"><b>Item price:</b> $${item[i].price}</p>
                 </div>
                 <div>
-                <a href="javascript:void(0)" id="add_${item[i].id}"> <img src="${shopping_cart_img}" class="shopping_img_cart_add add_${item[i].id}"> </a>
+                <a href="javascript:void(0)" id="add_${item[i].id}">
+                 <img src="${shopping_cart_img}" class="shopping_img_cart_add add_${item[i].id}"> </a>
                 <a href="javascript:void(0)" id="remove_${item[i].id}"><img src="${delete_item}" class="shopping_img_cart_remove"> </a>
                 <p class="text_on_img">Click on the image to see more</p>
             
@@ -51,3 +52,26 @@ cheap_to_expensive.onclick = (e) => {
     })
   );
 };
+function toggleImage(e) {
+  e.stopPropagation();
+  const src1 = e.target.getAttribute("src");
+  const dataAttrImgUrl = e.target.getAttribute("data-img2");
+  e.target.setAttribute("src", dataAttrImgUrl);
+  e.target.setAttribute("data-img2", src1);
+}
+function the_item(obj, name, price, category, count) {
+  obj.itemName = name;
+  obj.price = price;
+  obj.category = category;
+}
+
+// add to cart
+function add_to_the_cart(name, price, category, count) {
+  for (let i = 0; i < item.length; i++) {
+    if (item[i].category == "Shirts") {
+      if (item[i].itemName === price) {
+        return;
+      }
+    }
+  }
+}
