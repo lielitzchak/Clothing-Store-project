@@ -67,19 +67,17 @@
     height: 50%;
   }
   .sort_by {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
   }
   .img_category_mobile {
     width: 100%;
     height: auto;
     position: relative;
   }
-  #sort_by_mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3%;
-  }
+ 
   .add-link {
     width: 100%;
     height: 50%;
