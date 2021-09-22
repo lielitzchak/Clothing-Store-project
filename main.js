@@ -139,7 +139,7 @@ const item = [
     id: "18",
     itemName: "Leopard Trim Bandeau High Waisted Bikini Swimsuit",
     price: 50,
-    description: "",
+    description: "car",
     category: "Swimwear",
     picture: ["https://did.li/veC5q", "https://did.li/e40ql"],
   },
@@ -473,4 +473,3 @@ let div_for_main = document.getElementById("div_for_main");
 let img_category_mobile = document.getElementById("img_category_mobile");
 
 const the_table = document.getElementById("the_table");
-let cart = [];
