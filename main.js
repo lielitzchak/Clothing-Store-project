@@ -471,5 +471,7 @@ let user_email_input = document.getElementById("user_email");
 let for_massage = document.getElementById("for_massage");
 let div_for_main = document.getElementById("div_for_main");
 let img_category_mobile = document.getElementById("img_category_mobile");
-
+let enterJS = document.getElementById("enterJS");
 const the_table = document.getElementById("the_table");
+const td_class = document.getElementsByClassName("td_class");
+let theSum = document.getElementById("theSum");

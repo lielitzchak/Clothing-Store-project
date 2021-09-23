@@ -8,8 +8,47 @@ function clickMenu() {
     header_nav_home_page_for_mobile.style.display = "block";
   }
 }
-const enterJS = document.getElementById("enterJS");
+// for (let i = 0; i < item_for_cart.length; i++) {
+td_class1.innerHTML += `
 
+  <tr><td><img src="${item_for_cart[0].picture[0]}"</td></tr>
+  <tr><td>${item_for_cart[0].itemName}</td></tr>
+  <tr><td>${item_for_cart[0].description}</td></tr>
+  <tr><td class = "price_to_pay">${item_for_cart[0].price}$</td></tr>
+  <tr><td>${item_for_cart[0].category}</td></tr>
+<tr><td>${item_for_cart[0].id}</td></tr>
+<td><button>remove</button></td>
+</tr>`;
+td_class2.innerHTML += `
+
+<tr><td><img src="${item_for_cart[1].picture[0]}"</td></tr>
+<tr><td>${item_for_cart[1].itemName}</td></tr>
+<tr><td>${item_for_cart[1].description}</td></tr>
+<tr><td class = "price_to_pay">${item_for_cart[1].price}$</td></tr>
+<tr><td>${item_for_cart[1].category}</td></tr>
+<tr><td>${item_for_cart[1].id}</td></tr>
+<td><button>remove</button></td>
+</tr>`;
+td_class3.innerHTML += `
+
+<tr><td><img src="${item_for_cart[2].picture[0]}"</td></tr>
+<tr><td>${item_for_cart[2].itemName}</td></tr>
+<tr><td>${item_for_cart[2].description}</td></tr>
+<tr><td class = "price_to_pay">${item_for_cart[2].price}$</td></tr>
+<tr><td>${item_for_cart[2].category}</td></tr>
+<tr><td>${item_for_cart[2].id}</td></tr>
+<td><button>remove</button></td>
+</tr>`;
+td_class4.innerHTML += `
+
+<tr><td><img src="${item_for_cart[3].picture[0]}"</td></tr>
+<tr><td>${item_for_cart[3].itemName}</td></tr>
+<tr><td>${item_for_cart[3].description}</td></tr>
+<tr><td class = "price_to_pay">${item_for_cart[3].price}$</td></tr>
+<tr><td>${item_for_cart[3].category}</td></tr>
+<tr><td>${item_for_cart[3].id}</td></tr>
+<td><button>remove</button></td>
+</tr>`;
 let my_array = [
   {
     id: "52",
@@ -47,14 +86,24 @@ let my_array = [
 function removeOne(num) {
   let x = (num.length -= 1);
   if (x == 0) {
-    console.log("you have nothing in the cart");
+    alert("you have nothing in the cart");
   }
   return x;
 }
-console.log(my_array);
 
 const btn = document.getElementById("btn");
 btn.onclick = () => {
   console.log(removeOne(my_array));
   console.log(my_array);
 };
+
+function sum_to_pay(pay) {
+  let sum = 0;
+  for (let i = 0; i < pay.length; i++) {
+    return (sum += pay);
+  }
+}
+
+theSum.innerHTML += sum_to_pay(7);
+let all = 268 + 54 + 50 + 174;
+console.log(all);

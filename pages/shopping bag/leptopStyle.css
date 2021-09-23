@@ -51,7 +51,24 @@
     background-color: #c8c6c6;
   }
   a {
-      color: black;
-      text-decoration: none;
+    color: black;
+    text-decoration: none;
+  }
+  th {
+    width: 10%;
+    height: 30%;
+    background-color: tomato;
+  }
+  td {
+    width: 10%;
+    height: 30%;
+    background-color: teal;
+  }
+  img {
+    width: 50%;
+    height: auto;
+  }
+  td #theSum {  width: 15%;
+    background-color: brown;
   }
 }
