@@ -8,7 +8,6 @@ function clickMenu() {
     header_nav_home_page_for_mobile.style.display = "block";
   }
 }
-// for (let i = 0; i < item_for_cart.length; i++) {
 td_class1.innerHTML += `
 
   <tr><td><img src="${item_for_cart[0].picture[0]}"</td></tr>
@@ -17,7 +16,7 @@ td_class1.innerHTML += `
   <tr><td class = "price_to_pay">${item_for_cart[0].price}$</td></tr>
   <tr><td>${item_for_cart[0].category}</td></tr>
 <tr><td>${item_for_cart[0].id}</td></tr>
-<td><button>remove</button></td>
+<td><button id="btn_remove">remove</button></td>
 </tr>`;
 td_class2.innerHTML += `
 
@@ -49,6 +48,7 @@ td_class4.innerHTML += `
 <tr><td>${item_for_cart[3].id}</td></tr>
 <td><button>remove</button></td>
 </tr>`;
+
 let my_array = [
   {
     id: "52",
@@ -91,19 +91,19 @@ function removeOne(num) {
   return x;
 }
 
-const btn = document.getElementById("btn");
-btn.onclick = () => {
+btn_remove.onclick = () => {
+  removeOne(my_array);
   console.log(removeOne(my_array));
   console.log(my_array);
 };
 
-function sum_to_pay(pay) {
-  let sum = 0;
-  for (let i = 0; i < pay.length; i++) {
-    return (sum += pay);
-  }
+let sum = 0;
+function sum_to_pay() {
+  sum = item_for_cart[0].price + item_for_cart[1].price;
+  item_for_cart[2].price + item_for_cart[3].price;
+  return sum;
 }
 
-theSum.innerHTML += sum_to_pay(7);
+console.log((btn_remove.innerHTML = sum_to_pay()));
 let all = 268 + 54 + 50 + 174;
 console.log(all);

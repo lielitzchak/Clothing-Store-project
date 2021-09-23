@@ -475,3 +475,4 @@ let enterJS = document.getElementById("enterJS");
 const the_table = document.getElementById("the_table");
 const td_class = document.getElementsByClassName("td_class");
 let theSum = document.getElementById("theSum");
+const btn_remove = document.getElementById("btn_remove");
