@@ -68,7 +68,15 @@
     width: 50%;
     height: auto;
   }
-  td #theSum {  width: 15%;
+  td #theSum {
+    width: 15%;
     background-color: brown;
+  }
+  .btn_class {
+    background-color: violet;
+    border-radius: 50px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-top: 7%;
   }
 }
