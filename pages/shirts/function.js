@@ -18,7 +18,3 @@ function toggleImage(e) {
   e.target.setAttribute("data-img2", src1);
 }
 
-// !const array = ['4'];
-//! array.push('7');
-//! array.splice(array.length, 0, '11');
-//!console.log(array);

@@ -8,60 +8,45 @@ function clickMenu() {
     header_nav_home_page_for_mobile.style.display = "block";
   }
 }
-td_class1.innerHTML += `
-  <tr class= "the_section"><td><img src="${item_for_cart[0].picture[0]}"</td></tr>
-  <tr class= "the_section"><td>${item_for_cart[0].itemName}</td></tr>
-  <tr class= "the_section"><td>${item_for_cart[0].description}</td></tr>
-  <tr class= "the_section"><td class = "price_to_pay">${item_for_cart[0].price}$</td></tr>
-  <tr class= "the_section"><td>${item_for_cart[0].category}</td></tr>
-  <tr class= "the_section"><td>${item_for_cart[0].id}</td></tr>
-  <tr  class= "the_section"><button class = "btn_class" id="btn_remove">remove</button></tr>
-</tr>`;
-td_class2.innerHTML += `
 
-<tr><td><img src="${item_for_cart[1].picture[0]}"</td></tr>
-<tr><td>${item_for_cart[1].itemName}</td></tr>
-<tr><td>${item_for_cart[1].description}</td></tr>
-<tr><td class = "price_to_pay">${item_for_cart[1].price}$</td></tr>
-<tr><td>${item_for_cart[1].category}</td></tr>
-<tr><td>${item_for_cart[1].id}</td></tr>
-<tr><button class = "btn_class">remove</button></tr>
-</tr>`;
-td_class3.innerHTML += `
+for (let i = 0; i < item_for_cart.length; i++) {
+  tTable.innerHTML += `
+   <tr id ="${item_for_cart[i].id}">
+        <td>
+           <img src="${item_for_cart[i].picture[0]}">
+         </td>
+         <td>
+            <p>${item_for_cart[i].itemName}</p>  
+          </td>   
+          <td>  
+              <h2>${item_for_cart[i].price}$</h2>
+          </td>
+          <td>
+                  ${item_for_cart[i].description}
+          </td>
+          <td>
+            <button onclick="remove_from_the_cart(${item_for_cart[i].id})" style = "cursor: pointer;" id = "btn_remove">remove</button>
+          </td>
+     </tr> 
+`;
 
-<tr><td><img src="${item_for_cart[2].picture[0]}"</td></tr>
-<tr><td>${item_for_cart[2].itemName}</td></tr>
-<tr><td>${item_for_cart[2].description}</td></tr>
-<tr><td class = "price_to_pay">${item_for_cart[2].price}$</td></tr>
-<tr><td>${item_for_cart[2].category}</td></tr>
-<tr><td>${item_for_cart[2].id}</td></tr>
-<tr><button class = "btn_class">remove</button></tr>
-</tr>`;
-td_class4.innerHTML += `
-
-<tr><td><img src="${item_for_cart[3].picture[0]}"</td></tr>
-<tr><td>${item_for_cart[3].itemName}</td></tr>
-<tr><td>${item_for_cart[3].description}</td></tr>
-<tr><td class = "price_to_pay">${item_for_cart[3].price}$</td></tr>
-<tr><td>${item_for_cart[3].category}</td></tr>
-<tr><td>${item_for_cart[3].id}</td></tr>
-<tr><button class = "btn_class">remove</button></tr>
-</tr>`;
-
-function removeOne(num) {
-  let the_remove = (num.length -= 1);
-  if (the_remove == 0) {
-    alert("you have nothing in the cart");
+  the_sum.innerHTML = `<h1> Total: ${Total_calculation()}$</h1>`;
+}
+function Total_calculation() {
+  let sum = 0;
+  for (let i = 0; i < item_for_cart.length; i++) {
+    sum += item_for_cart[i].price;
   }
-  return the_remove;
+  return sum;
 }
 
-let sumToShow = 0;
-function sum_to_pay() {
-  sumToShow = item_for_cart[0].price + item_for_cart[1].price;
-  item_for_cart[2].price + item_for_cart[3].price;
-  return sumToShow;
+function remove_from_the_cart(ids) {
+  for (let i = 0; i < item_for_cart.length; i++) {
+    if (item_for_cart[i].id == ids) {
+      item_for_cart.splice(i, 1);
+      document.getElementById(ids).innerHTML = "";
+      the_sum.innerHTML = `<h3>Total: ${Total_calculation() + "$"}</h3>`;
+      console.log(item_for_cart);
+    }
+  }
 }
-
-let all = 268 + 54 + 50 + 174;
-console.log(all);
