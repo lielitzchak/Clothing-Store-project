@@ -1,18 +1,7 @@
-function clickMenu() {
-  let header_nav_home_page_for_mobile = document.getElementById(
-    "header_nav_home_page_for_mobile"
-  );
-  if (header_nav_home_page_for_mobile.style.display === "block") {
-    header_nav_home_page_for_mobile.style.display = "none";
-  } else {
-    header_nav_home_page_for_mobile.style.display = "block";
-  }
-}
-
 for (let i = 0; i < item_for_cart.length; i++) {
   tTable.innerHTML += `
    <tr id ="${item_for_cart[i].id}">
-        <td>
+        <td>  
            <img src="${item_for_cart[i].picture[0]}">
          </td>
          <td>
