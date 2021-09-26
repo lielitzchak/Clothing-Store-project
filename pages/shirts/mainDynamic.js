@@ -33,15 +33,8 @@ function all_produces() {
     }
   }
 }
-function disable_content()
-{
-    return false;
-}
-function play_content()
-{
-    return true;
-}
-function printToDome(e , useIn) {
+
+function printToDome(e, useIn) {
   e.preventDefault();
   for (let i = 0; i < item.length; i++) {
     if (item[i].category == "Shirts") {
@@ -66,6 +59,13 @@ function printToDome(e , useIn) {
     }
   }
 }
+function toggleImage(e) {
+  e.stopPropagation();
+  const src1 = e.target.getAttribute("src");
+  const dataAttrImgUrl = e.target.getAttribute("data-img2");
+  e.target.setAttribute("src", dataAttrImgUrl);
+  e.target.setAttribute("data-img2", src1);
+}
 
 //! remove to cart array
 function remove_$(itemName, price, category) {
@@ -88,9 +88,8 @@ function expensive_to_cheap(e) {
 }
 expensive_to__cheap.onclick = (e) => {
   e.preventDefault();
-  disable_content(all_produces())
-  play_content(printToDome(e))
-
+  disable_content(all_produces());
+  play_content(printToDome(e));
 };
 
 // ! its work

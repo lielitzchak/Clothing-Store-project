@@ -1,5 +1,3 @@
-
-
 the_form.onsubmit = (event) => {
   event.preventDefault();
   let user_email_test = document.getElementById("user_email_test");
