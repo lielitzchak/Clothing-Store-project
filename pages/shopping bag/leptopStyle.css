@@ -65,7 +65,7 @@
     background-color: teal;
   }
   img {
-    width: 50%;
+    width: 33%;
     height: auto;
   }
   td #theSum {
@@ -78,5 +78,9 @@
     padding-left: 17px;
     padding-right: 17px;
     margin-top: 7%;
+  }
+  #the_sum {
+    width: 100%;
+    height: auto;
   }
 }
