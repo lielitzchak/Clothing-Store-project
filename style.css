@@ -22,7 +22,6 @@
   .topnav #header_nav_home_page_for_mobile {
     display: none;
     font-family: "Merienda", cursive;
-
   }
 
   .topnav a {
@@ -91,7 +90,7 @@
 
   .img_home_page {
     width: 51%;
-    height : auto;
+    height: auto;
     border-radius: 50px;
     animation: img_home_page 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   }
@@ -134,12 +133,12 @@
     background-color: #4b6587;
   }
   .footer_h5_home_page {
-    color: black;    
+    color: black;
     font-size: 145%;
     font-family: "Merienda", cursive;
     font-family: "Voltaire", sans-serif;
   }
-  ul{
+  ul {
     list-style: none;
   }
   .footer_ul_home_page a {
@@ -156,7 +155,7 @@
     width: 7%;
     height: auto;
   }
- 
+
   .footer_input_home_page {
     width: 28%;
     padding: 0.5%;
@@ -232,8 +231,7 @@
     position: relative;
     display: inline-block;
   }
-  .fo
-  .footer_butn {
+  .fo .footer_butn {
     color: rgb(0, 0, 0);
     padding: 0;
     border: none;
@@ -242,7 +240,7 @@
     font-family: "Sriracha", cursive;
     font-family: "Voltaire", sans-serif;
   }
-  label{
+  label {
     font-family: "Allura", cursive;
     font-family: "Merienda", cursive;
     font-family: "Sriracha", cursive;
