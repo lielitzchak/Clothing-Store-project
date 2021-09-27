@@ -44,8 +44,10 @@
   }
   #shoppingBag {
     height: 40px;
-    width: auto;
+    width: auto;align-items: center;
+    justify-content: center;
   }
+
   main {
     background-color: #c8c6c6;
   }
@@ -58,7 +60,7 @@
   .text_on_img {
     position: absolute;
     bottom: 14%;
-    left: 5%;
+    left: 6.5%;
     background-color: antiquewhite;
     border-radius: 6px;
     padding: 0.2%;

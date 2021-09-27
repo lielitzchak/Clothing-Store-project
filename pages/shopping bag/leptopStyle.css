@@ -57,12 +57,13 @@
   th {
     width: 10%;
     height: 30%;
-    background-color: tomato;
+    background-color: #747474;
   }
   td {
     width: 10%;
     height: 30%;
-    background-color: teal;
+    background-color: #c7c7c7;
+    border: solid 1px;
   }
   img {
     width: 33%;
@@ -80,6 +81,8 @@
     margin-top: 7%;
   }
   #the_sum {
+    padding-right: 5%;
+    text-align: right;
     width: 100%;
     height: auto;
   }
