@@ -8,6 +8,7 @@ function clickMenu() {
     header_nav_home_page_for_mobile.style.display = "block";
   }
 }
+
 const item = [
   {
     id: "1",
