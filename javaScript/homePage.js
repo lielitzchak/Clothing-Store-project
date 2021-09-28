@@ -1,5 +1,4 @@
 let footerDiv = document.getElementById("footerDiv");
-let the_Form = document.getElementById("the_form");
 footerDiv.innerHTML = `<div id="footer_div_home_page">
 <section class="footer_section_home_page">
   <ul class="footer_ul_home_page">
@@ -70,6 +69,7 @@ footerDiv.innerHTML = `<div id="footer_div_home_page">
 <br />
 <h5 id="All_rights_reserved">	&copy; All rights reserved- liel itzchak</h5> 
 `;
+let the_Form = document.getElementById("the_form");
 let user_name_input = document.getElementById("user_name").value;
 let user_email_input = document.getElementById("user_email").value;
 let for_massage = document.getElementById("for_massage");
@@ -83,8 +83,6 @@ function Check_if_similar(testOne, test_two) {
     alert("your email is not the same ,please write again ");
   }
 }
-let the_Form = document.getElementById("the_form");
-
 the_Form.onsubmit = (e) => {
   e.preventDefault();
   let user_email_test = document.getElementById("user_email_test");
