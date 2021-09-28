@@ -73,7 +73,6 @@ let the_form = document.getElementById("the_form");
 let user_name_input = document.getElementById("user_name").value;
 let user_email_input = document.getElementById("user_email").value;
 let for_massage = document.getElementById("for_massage").value;
-
 the_form.onsubmit = (e) => {
   e.preventDefault();
   let user_email_test = document.getElementById("user_email_test");
