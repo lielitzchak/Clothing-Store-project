@@ -112,10 +112,10 @@ footerDiv.innerHTML = `
   <section class="footer_section_home_page">
     <h5 class="footer_h5_home_page"> conect us:</h5>
     <br />
-    <a href="https://github.com/lielitzchak" ><img src="/media/photos/github_logo.png" class="footer_img_home_page" alt="" /></a>
-    <a href="https://www.linkedin.com/in/liel-itzchak-b663b0211/" ><img src="/media/photos/linkdin_logo.png" class="footer_img_home_page" alt="" /></a>
-    <a href="https://www.facebook.com/liel.izchaak/" ><img src="/media/photos/facebook_logo.png" class="footer_img_home_page" alt=""/></a>
-    <a href="https://www.instagram.com/lielitzchak/" ><img src="/media/photos/instagram_logo.png" class="footer_img_home_page" alt="" /></a>
+    <a href="https://github.com/lielitzchak" ><img src="../media/photos/github_logo.png" class="footer_img_home_page" alt="" /></a>
+    <a href="https://www.linkedin.com/in/liel-itzchak-b663b0211/" ><img src="../media/photos/linkdin_logo.png" class="footer_img_home_page" alt="" /></a>
+    <a href="https://www.facebook.com/liel.izchaak/" ><img src="../media/photos/facebook_logo.png" class="footer_img_home_page" alt=""/></a>
+    <a href="https://www.instagram.com/lielitzchak/" ><img src="../media/photos/instagram_logo.png" class="footer_img_home_page" alt="" /></a>
   </section>
   <section class="footer_section_home_page">
     <form  id="the_form">
