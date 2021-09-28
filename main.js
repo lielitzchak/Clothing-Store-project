@@ -463,7 +463,6 @@ const item_for_cart = [
 ];
 
 const div_for_scrip = document.getElementById("div_for_scrip");
-const shopping_img_cart_add = document.getElementById("shopping_img_cart_add");
 let theHeader = document.getElementsByTagName("header");
 let imgLogoHome = document.getElementById("imgLogoHome");
 let div_for_mobile_pic = document.getElementById("div_for_mobile_pic");
