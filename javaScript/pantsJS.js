@@ -16,7 +16,9 @@ for (let i = 0; i < item.length; i++) {
                   </div>
                   <div>
                   <a href="javascript:void(0)" id="add_${item[i].id}"> <img src="../media/photos/icons8-shopping-cart-64.png" class="shopping_img_cart_add add_${item[i].id}"> </a>
-                  <a href="javascript:void(0)" id="remove_${item[i].id}"><img src="${delete_item}" class="shopping_img_cart_remove"> </a>
+                  <a onclick="add_$(${item[i].price},'${item[i].description}' ,'${item[i].category}' ,'${item[i].picture[0]}' ,'${item[i].itemName}' , ${item[i].id} , event)" href="#" id="${item[i].id}"><img src="../media/photos/icons8-shopping-cart-64.png" class="shopping_img_cart_add add_${item[i].id}"> </a>
+
+                  <a onclick=" remove_$(${item[i].id}, event)" href="#"><img src="../media/photos/icons8-delete-50.png" class="shopping_img_cart_remove"> </a>
                   <p class="text_on_img">Click on the image to see more</p>
               
                   </div>
