@@ -70,7 +70,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* display: none; */
   }
   .img_category_mobile {
     width: 100%;
@@ -85,19 +84,19 @@
   .shopping_img_cart_add {
     position: absolute;
     left: 87%;
-    bottom: 0.5%;
+    bottom: 10.5%;
     width: 8%;
   }
   .shopping_img_cart_remove {
     position: absolute;
     width: 8%;
     left: 76%;
-    bottom: 0.5%;
+    bottom: 10.5%;
   }
 
   .text_on_img {
-    bottom: 13%;
-    left: 25%;
+    bottom: 26%;
+    left: 22%;
     position: absolute;
     background-color: #555;
     border-radius: 5px;
@@ -106,6 +105,12 @@
     font-size: 17px;
     animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
       both;
+  }
+  .item_price {
+    height: 63px;
+  }
+  .item_class {
+    height: 98px;
   }
   @keyframes shadow-drop-2-center {
     0% {
