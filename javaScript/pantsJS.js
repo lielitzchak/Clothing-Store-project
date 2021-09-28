@@ -47,6 +47,15 @@ cheap_to_expensive.onclick = (e) => {
     })
   );
 };
+function remove_$(ids, e) {
+  e.preventDefault();
+  for (let i = 0; i < items_for_cart.length; i++) {
+    if (items_for_cart[i].id === ids) {
+      items_for_cart.splice(i, 1);
+    }
+  }
+  console.log(items_for_cart);
+}
 function add_$(the_price, descriptions, category, pictures, Name, id, e) {
   e.preventDefault();
   let added = { id, Name, the_price, descriptions, category, pictures };
