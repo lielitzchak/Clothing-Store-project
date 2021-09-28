@@ -70,6 +70,8 @@ footerDiv.innerHTML = `<div id="footer_div_home_page">
 <h5 id="All_rights_reserved">	&copy; All rights reserved- liel itzchak</h5> 
 `;
 let the_form = document.getElementById("the_form");
+let user_name_input = document.getElementById("user_name");
+let user_email_input = document.getElementById("user_email");
 the_form.onsubmit = (e) => {
   e.preventDefault();
   let user_email_test = document.getElementById("user_email_test");
