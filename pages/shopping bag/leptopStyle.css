@@ -38,7 +38,6 @@
     height: 110px;
   }
   #shoppingBag {
-    
     height: 40px;
     width: auto;
     transition: 1s;
@@ -87,7 +86,7 @@
     width: 100%;
     height: auto;
   }
-  
+
   footer {
     font-size: 100%;
     background-color: #4b6587;

@@ -42,9 +42,9 @@ function remove_from_the_cart(ids) {
     }
   }
 }
-let footerDiv= document.getElementById("footerDiv")
+let footerDiv = document.getElementById("footerDiv");
 
-footerDiv.innerHTML=` 
+footerDiv.innerHTML = ` 
 <div id="footer_div_home_page">
   <section class="footer_section_home_page">
     <ul class="footer_ul_home_page">

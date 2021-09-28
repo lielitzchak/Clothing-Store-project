@@ -44,7 +44,8 @@
   }
   #shoppingBag {
     height: 40px;
-    width: auto;align-items: center;
+    width: auto;
+    align-items: center;
     justify-content: center;
   }
 

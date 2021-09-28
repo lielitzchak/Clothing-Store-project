@@ -483,3 +483,4 @@ const click_to_add_to_the_cart = document.getElementById(
   "click_to_add_to_the_cart"
 );
 const items_for_cart = [];
+

@@ -26,7 +26,6 @@ function add_$(the_price, descriptions, category, pictures, Name, id, e) {
       items_for_cart.push(added);
     }
   }
-
   console.log(items_for_cart);
   return added;
 }

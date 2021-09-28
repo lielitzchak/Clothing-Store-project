@@ -147,8 +147,7 @@
   }
   .th_for_table {
     color: black;
-        font-family: 'Courgette', cursive;
-
+    font-family: "Courgette", cursive;
   }
   .img_table {
     width: 100%;
@@ -156,7 +155,7 @@
   }
   .cart_all {
     background: #8b8b8b70;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: "Red Hat Display", sans-serif;
   }
   #All_rights_reserved {
     font-family: "Allura", cursive;
