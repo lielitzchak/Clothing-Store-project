@@ -1,3 +1,5 @@
+const shopping_cart_img = "../media/photos/shopping-cart.png";
+const delete_item = "../media/photos/icons8-delete-50.png";
 for (let i = 0; i < item.length; i++) {
   if (item[i].category == "dresses") {
     div_for_main.innerHTML += `
@@ -21,9 +23,9 @@ for (let i = 0; i < item.length; i++) {
         </div>`;
   }
 }
-let footerDiv= document.getElementById("footerDiv")
+let footerDiv = document.getElementById("footerDiv");
 
-footerDiv.innerHTML=` 
+footerDiv.innerHTML = ` 
 <div id="footer_div_home_page">
   <section class="footer_section_home_page">
     <ul class="footer_ul_home_page">

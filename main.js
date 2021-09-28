@@ -461,8 +461,7 @@ const item_for_cart = [
     picture: ["https://did.li/140ql", "https://did.li/hfC5q"],
   },
 ];
-const shopping_cart_img = "/media/photos/shopping-cart.png";
-const delete_item = "/media/photos/icons8-delete-50.png";
+
 const expensive_to__cheap = document.getElementById("expensive_to__cheap");
 const cheap_to_expensive = document.getElementById("cheap_to_expensive");
 const sort_random = document.getElementById("sort_random");
