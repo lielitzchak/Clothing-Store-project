@@ -462,8 +462,7 @@ const item_for_cart = [
   },
 ];
 
-const expensive_to__cheap = document.getElementById("expensive_to__cheap");
-const cheap_to_expensive = document.getElementById("cheap_to_expensive");
+
 const sort_random = document.getElementById("sort_random");
 const div_for_scrip = document.getElementById("div_for_scrip");
 const shopping_img_cart_add = document.getElementById("shopping_img_cart_add");

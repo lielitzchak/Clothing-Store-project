@@ -1,5 +1,7 @@
 // const shopping_cart_img = "../media/photos/shopping-cart.png";
 // const delete_item = "../media/photos/icons8-delete-50.png";
+const expensive_to__cheap = document.getElementById("expensive_to__cheap");
+const cheap_to_expensive = document.getElementById("cheap_to_expensive");
 function remove_$(ids, e) {
   e.preventDefault();
   for (let i = 0; i < items_for_cart.length; i++) {
@@ -63,7 +65,7 @@ for (let i = 0; i < item.length; i++) {
 
                 </div>
                 <div>
-                <a href="javascript:void(0)" id="add_${item[i].id}"> <img src=""../media/photos/icons8-shopping-cart.png" class="shopping_img_cart_add add_${item[i].id}"> </a>
+                <a href="javascript:void(0)" id="add_${item[i].id}"> <img src="../media/photos/icons8-shopping-cart.png" class="shopping_img_cart_add add_${item[i].id}"> </a>
                 <a href="javascript:void(0)" id="remove_${item[i].id}"><img src="../media/photos/icons8-delete-50.png" class="shopping_img_cart_remove"> </a>
                 <p class="text_on_img">Click on the image to see more</p>
             
@@ -145,6 +147,3 @@ footerDiv.innerHTML = `
 <br />
 <h5 id="All_rights_reserved">	&copy; All rights reserved- liel itzchak</h5> 
 `;
-
-
-
