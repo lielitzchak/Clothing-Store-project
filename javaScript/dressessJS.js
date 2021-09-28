@@ -1,5 +1,54 @@
 // const shopping_cart_img = "../media/photos/shopping-cart.png";
 // const delete_item = "../media/photos/icons8-delete-50.png";
+function remove_$(ids, e) {
+  e.preventDefault();
+  for (let i = 0; i < items_for_cart.length; i++) {
+    if (items_for_cart[i].id === ids) {
+      items_for_cart.splice(i, 1);
+    }
+  }
+  console.log(items_for_cart);
+}
+function add_$(the_price, descriptions, category, pictures, Name, id, e) {
+  e.preventDefault();
+  let added = { id, Name, the_price, descriptions, category, pictures };
+  for (let i = 0; i < item.length; i++) {
+    if (item[i].id == id) {
+      items_for_cart.push(added);
+    }
+  }
+
+  console.log(items_for_cart);
+  return added;
+}
+function toggleImage(e) {
+  e.stopPropagation();
+  const src1 = e.target.getAttribute("src");
+  const dataAttrImgUrl = e.target.getAttribute("data-img2");
+  e.target.setAttribute("src", dataAttrImgUrl);
+  e.target.setAttribute("data-img2", src1);
+}
+// ! its work
+expensive_to__cheap.onclick = (e) => {
+  e.preventDefault();
+  item.sort((a, b) => {
+    div_for_main.innerHTML += b.price - a.price;
+  });
+  console.log(
+    item.sort((a, b) => {
+      return b.price - a.price;
+    })
+  );
+};
+// ! its work
+cheap_to_expensive.onclick = (e) => {
+  e.preventDefault();
+  console.log(
+    item.sort((a, b) => {
+      return a.price - b.price;
+    })
+  );
+};
 for (let i = 0; i < item.length; i++) {
   if (item[i].category == "dresses") {
     div_for_main.innerHTML += `
@@ -97,55 +146,5 @@ footerDiv.innerHTML = `
 <h5 id="All_rights_reserved">	&copy; All rights reserved- liel itzchak</h5> 
 `;
 
-function remove_$(ids, e) {
-  e.preventDefault();
-  for (let i = 0; i < items_for_cart.length; i++) {
-    if (items_for_cart[i].id === ids) {
-      items_for_cart.splice(i, 1);
-    }
-  }
-  console.log(items_for_cart);
-}
-function add_$(the_price, descriptions, category, pictures, Name, id, e) {
-  e.preventDefault();
-  let added = { id, Name, the_price, descriptions, category, pictures };
-  for (let i = 0; i < item.length; i++) {
-    if (item[i].id == id) {
-      items_for_cart.push(added);
-    }
-  }
 
-  console.log(items_for_cart);
-  return added;
-}
-function toggleImage(e) {
-  e.stopPropagation();
-  const src1 = e.target.getAttribute("src");
-  const dataAttrImgUrl = e.target.getAttribute("data-img2");
-  e.target.setAttribute("src", dataAttrImgUrl);
-  e.target.setAttribute("data-img2", src1);
-}
 
-// ! ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-// ! its work
-expensive_to__cheap.onclick = (e) => {
-  e.preventDefault();
-  item.sort((a, b) => {
-    div_for_main.innerHTML += b.price - a.price;
-  });
-  console.log(
-    item.sort((a, b) => {
-      return b.price - a.price;
-    })
-  );
-};
-// ! its work
-cheap_to_expensive.onclick = (e) => {
-  e.preventDefault();
-  console.log(
-    item.sort((a, b) => {
-      return a.price - b.price;
-    })
-  );
-};
