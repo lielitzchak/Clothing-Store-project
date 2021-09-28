@@ -2,7 +2,34 @@ const expensive_to__cheap = document.getElementById("expensive_to__cheap");
 const cheap_to_expensive = document.getElementById("cheap_to_expensive");
 const shopping_img_cart_add = document.getElementById("shopping_img_cart_add");
 let the_form = document.getElementById("the_form");
+function toggleImage(e) {
+  e.stopPropagation();
+  const src1 = e.target.getAttribute("src");
+  const dataAttrImgUrl = e.target.getAttribute("data-img2");
+  e.target.setAttribute("src", dataAttrImgUrl);
+  e.target.setAttribute("data-img2", src1);
+}
+function remove_$(ids, e) {
+  e.preventDefault();
+  for (let i = 0; i < items_for_cart.length; i++) {
+    if (items_for_cart[i].id === ids) {
+      items_for_cart.splice(i, 1);
+    }
+  }
+  console.log(items_for_cart);
+}
+function add_$(the_price, descriptions, category, pictures, Name, id, e) {
+  e.preventDefault();
+  let added = { id, Name, the_price, descriptions, category, pictures };
+  for (let i = 0; i < item.length; i++) {
+    if (item[i].id == id) {
+      items_for_cart.push(added);
+    }
+  }
 
+  console.log(items_for_cart);
+  return added;
+}
 for (let i = 0; i < item.length; i++) {
   if (item[i].category == "pants") {
     div_for_main.innerHTML += `
@@ -47,34 +74,7 @@ cheap_to_expensive.onclick = (e) => {
     })
   );
 };
-function remove_$(ids, e) {
-  e.preventDefault();
-  for (let i = 0; i < items_for_cart.length; i++) {
-    if (items_for_cart[i].id === ids) {
-      items_for_cart.splice(i, 1);
-    }
-  }
-  console.log(items_for_cart);
-}
-function add_$(the_price, descriptions, category, pictures, Name, id, e) {
-  e.preventDefault();
-  let added = { id, Name, the_price, descriptions, category, pictures };
-  for (let i = 0; i < item.length; i++) {
-    if (item[i].id == id) {
-      items_for_cart.push(added);
-    }
-  }
 
-  console.log(items_for_cart);
-  return added;
-}
-function toggleImage(e) {
-  e.stopPropagation();
-  const src1 = e.target.getAttribute("src");
-  const dataAttrImgUrl = e.target.getAttribute("data-img2");
-  e.target.setAttribute("src", dataAttrImgUrl);
-  e.target.setAttribute("data-img2", src1);
-}
 let footerDiv = document.getElementById("footerDiv");
 
 footerDiv.innerHTML = `
