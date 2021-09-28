@@ -462,7 +462,8 @@ const item_for_cart = [
   },
 ];
 
-
+const expensive_to__cheap = document.getElementById("expensive_to__cheap");
+const cheap_to_expensive = document.getElementById("cheap_to_expensive");
 const sort_random = document.getElementById("sort_random");
 const div_for_scrip = document.getElementById("div_for_scrip");
 const shopping_img_cart_add = document.getElementById("shopping_img_cart_add");
@@ -470,7 +471,11 @@ let theHeader = document.getElementsByTagName("header");
 let imgLogoHome = document.getElementById("imgLogoHome");
 let king = document.getElementById("king");
 let div_for_mobile_pic = document.getElementById("div_for_mobile_pic");
+// let the_form = document.getElementById("the_form");
 let mobile_container = document.getElementById("mobile_container");
+// let user_name_input = document.getElementById("user_name");
+// let user_email_input = document.getElementById("user_email");
+// let for_massage = document.getElementById("for_massage");
 let div_for_main = document.getElementById("div_for_main");
 let img_category_mobile = document.getElementById("img_category_mobile");
 let enterJS = document.getElementById("enterJS");
