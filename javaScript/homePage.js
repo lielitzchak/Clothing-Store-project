@@ -70,8 +70,8 @@ footerDiv.innerHTML = `<div id="footer_div_home_page">
 <h5 id="All_rights_reserved">	&copy; All rights reserved- liel itzchak</h5> 
 `;
 
-the_form.onsubmit = (event) => {
-  event.preventDefault();
+the_form.onsubmit = (e) => {
+  e.preventDefault();
   let user_email_test = document.getElementById("user_email_test");
 
   Check_if_similar(user_email_input, user_email_test);
