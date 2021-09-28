@@ -5,10 +5,10 @@ footerDiv.innerHTML = `<div id="footer_div_home_page">
     <h5 class="footer_h5_home_page footer_h5_home_page_for_mobile">category</h5>
     <br />
     <li class="footer_li_home_page footer_li_home_page_for_mobile">
-      <a href="../page/shirts.html"><p>shirt</p></a>
+      <a href="page/shirts.html"><p>shirt</p></a>
     </li>
     <li class="footer_li_home_page footer_li_home_page_for_mobile">
-      <a href="../page/Swimwear.html"><p>swimwear</p></a>
+      <a href="page/Swimwear.html"><p>swimwear</p></a>
     </li>
     <li class="footer_li_home_page footer_li_home_page_for_mobile">
       <a href="#"><p>accessories</p></a>
@@ -20,10 +20,10 @@ footerDiv.innerHTML = `<div id="footer_div_home_page">
       <a href="#"><p>shoes</p></a>
     </li>
     <li  class="footer_li_home_page footer_li_home_page_for_mobile">
-      <a href="../page/dresses.html"><p>dresses</p></a>
+      <a href="page/dresses.html"><p>dresses</p></a>
     </li>
     <li class="footer_li_home_page footer_li_home_page_for_mobile">
-      <a href="../page/pants.html"><p>pants</p></a>
+      <a href="page/pants.html"><p>pants</p></a>
     </li>
   </ul>
 </section>
