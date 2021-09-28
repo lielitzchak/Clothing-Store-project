@@ -15,7 +15,7 @@ for (let i = 0; i < item.length; i++) {
                   <p class="item_price"><b>Item price:</b> $${item[i].price}</p>
                   </div>
                   <div>
-                  <a href="javascript:void(0)" id="add_${item[i].id}"> <img src="${shopping_cart_img}" class="shopping_img_cart_add add_${item[i].id}"> </a>
+                  <a href="javascript:void(0)" id="add_${item[i].id}"> <img src="../media/photos/icons8-shopping-cart-64.png" class="shopping_img_cart_add add_${item[i].id}"> </a>
                   <a href="javascript:void(0)" id="remove_${item[i].id}"><img src="${delete_item}" class="shopping_img_cart_remove"> </a>
                   <p class="text_on_img">Click on the image to see more</p>
               
