@@ -86,4 +86,75 @@
     width: 100%;
     height: auto;
   }
+  
+  footer {
+    font-size: 100%;
+    background-color: #4b6587;
+  }
+  .footer_h5_home_page {
+    font-family: "Merienda", cursive;
+    font-family: "Voltaire", sans-serif;
+  }
+  #footer_div_home_page {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer_img_home_page {
+    height: 39px;
+    width: auto;
+  }
+  .footer_img_home_page:hover {
+    animation: slide_to_top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  @keyframes slide_to_top {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  .footer_ul_home_page li {
+    list-style: none;
+    font-family: "Allura", cursive;
+    font-family: "Merienda", cursive;
+    font-family: "Sriracha", cursive;
+    font-family: "Voltaire", sans-serif;
+  }
+  .footer_btn_home_page {
+    width: 33%;
+    height: 40%;
+    padding: 10px 25px;
+    border: 2px solid;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+  .footer_butn {
+    color: rgb(0, 0, 0);
+    padding: 0;
+    border: none;
+    font-family: "Allura", cursive;
+    font-family: "Merienda", cursive;
+    font-family: "Sriracha", cursive;
+    font-family: "Voltaire", sans-serif;
+  }
+  .footer_butn:hover {
+    background: transparent;
+    color: black;
+    box-shadow: -1px -1px 20px 0px #fff9, -1px -1px 1px 0px #fff9,
+      7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  }
+  #All_rights_reserved {
+    font-family: "Allura", cursive;
+    font-family: "Merienda", cursive;
+    font-family: "Voltaire", sans-serif;
+  }
+  label {
+    font-family: "Allura", cursive;
+    font-family: "Merienda", cursive;
+    font-family: "Sriracha", cursive;
+    font-family: "Voltaire", sans-serif;
+  }
 }
