@@ -467,7 +467,6 @@ const shopping_img_cart_add = document.getElementById("shopping_img_cart_add");
 // let theHeader = document.getElementsByTagName("header");
 let imgLogoHome = document.getElementById("imgLogoHome");
 // let div_for_mobile_pic = document.getElementById("div_for_mobile_pic");
-let the_form = document.getElementById("the_form");
 let mobile_container = document.getElementById("mobile_container");
 let user_name_input = document.getElementById("user_name");
 let user_email_input = document.getElementById("user_email");
