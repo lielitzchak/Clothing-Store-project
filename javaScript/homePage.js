@@ -70,7 +70,9 @@ footerDiv.innerHTML = `<div id="footer_div_home_page">
 <h5 id="All_rights_reserved">	&copy; All rights reserved- liel itzchak</h5> 
 `;
 let the_form = document.getElementById("the_form");
-
+let user_name_input = document.getElementById("user_name").value;
+let user_email_input = document.getElementById("user_email").value;
+let for_massage = document.getElementById("for_massage");
 function Check_if_similar(testOne, test_two) {
   if (testOne === test_two) {
     for_massage.innerHTML =
@@ -82,9 +84,7 @@ function Check_if_similar(testOne, test_two) {
   }
 }
 
-let user_name_input = document.getElementById("user_name").value;
-let user_email_input = document.getElementById("user_email").value;
-let for_massage = document.getElementById("for_massage").value;
+
 the_form.onsubmit = (e) => {
   e.preventDefault();
   let user_email_test = document.getElementById("user_email_test");
