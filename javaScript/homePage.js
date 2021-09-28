@@ -5,10 +5,10 @@ footerDiv.innerHTML = `<div id="footer_div_home_page">
     <h5 class="footer_h5_home_page footer_h5_home_page_for_mobile">category</h5>
     <br />
     <li class="footer_li_home_page footer_li_home_page_for_mobile">
-      <a href="page/shirts.html"><p>shirt</p></a>
+      <a href="../page/shirts.html"><p>shirt</p></a>
     </li>
     <li class="footer_li_home_page footer_li_home_page_for_mobile">
-      <a href="page/Swimwear.html"><p>swimwear</p></a>
+      <a href="../page/Swimwear.html"><p>swimwear</p></a>
     </li>
     <li class="footer_li_home_page footer_li_home_page_for_mobile">
       <a href="#"><p>accessories</p></a>
@@ -20,10 +20,10 @@ footerDiv.innerHTML = `<div id="footer_div_home_page">
       <a href="#"><p>shoes</p></a>
     </li>
     <li  class="footer_li_home_page footer_li_home_page_for_mobile">
-      <a href="page/dresses.html"><p>dresses</p></a>
+      <a href="../page/dresses.html"><p>dresses</p></a>
     </li>
     <li class="footer_li_home_page footer_li_home_page_for_mobile">
-      <a href="page/pants.html"><p>pants</p></a>
+      <a href="../page/pants.html"><p>pants</p></a>
     </li>
   </ul>
 </section>
@@ -42,10 +42,10 @@ footerDiv.innerHTML = `<div id="footer_div_home_page">
 <section class="footer_section_home_page">
   <h5 class="footer_h5_home_page"> conect us:</h5>
   <br />
-  <a href="https://github.com/lielitzchak" ><img src="media/photos/github_logo.png" class="footer_img_home_page" alt="" /></a>
-  <a href="https://www.linkedin.com/in/liel-itzchak-b663b0211/" ><img src="media/photos/linkdin_logo.png" class="footer_img_home_page" alt="" /></a>
-  <a href="https://www.facebook.com/liel.izchaak/" ><img src="media/photos/facebook_logo.png" class="footer_img_home_page" alt=""/></a>
-  <a href="https://www.instagram.com/lielitzchak/" ><img src="media/photos/instagram_logo.png" class="footer_img_home_page" alt="" /></a>
+  <a href="https://github.com/lielitzchak" ><img src="../media/photos/github_logo.png" class="footer_img_home_page" alt="" /></a>
+  <a href="https://www.linkedin.com/in/liel-itzchak-b663b0211/" ><img src="../media/photos/linkdin_logo.png" class="footer_img_home_page" alt="" /></a>
+  <a href="https://www.facebook.com/liel.izchaak/" ><img src="../media/photos/facebook_logo.png" class="footer_img_home_page" alt=""/></a>
+  <a href="https://www.instagram.com/lielitzchak/" ><img src="../media/photos/instagram_logo.png" class="footer_img_home_page" alt="" /></a>
 </section>
 <section class="footer_section_home_page">
   <form  id="the_form">
@@ -69,6 +69,7 @@ footerDiv.innerHTML = `<div id="footer_div_home_page">
 <br />
 <h5 id="All_rights_reserved">	&copy; All rights reserved- liel itzchak</h5> 
 `;
+
 the_form.onsubmit = (event) => {
   event.preventDefault();
   let user_email_test = document.getElementById("user_email_test");
