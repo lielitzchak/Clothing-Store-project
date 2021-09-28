@@ -1,3 +1,4 @@
+let the_form = document.getElementById("the_form");
 let footerDiv = document.getElementById("footerDiv");
 footerDiv.innerHTML = `<div id="footer_div_home_page">
 <section class="footer_section_home_page">
@@ -80,7 +81,6 @@ function Check_if_similar(testOne, test_two) {
   }
 }
 
-let the_form = document.getElementById("the_form");
 let user_name_input = document.getElementById("user_name").value;
 let user_email_input = document.getElementById("user_email").value;
 let for_massage = document.getElementById("for_massage").value;
