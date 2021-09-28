@@ -1,4 +1,3 @@
-let the_form = document.getElementById("the_form");
 let footerDiv = document.getElementById("footerDiv");
 footerDiv.innerHTML = `<div id="footer_div_home_page">
 <section class="footer_section_home_page">
@@ -70,6 +69,8 @@ footerDiv.innerHTML = `<div id="footer_div_home_page">
 <br />
 <h5 id="All_rights_reserved">	&copy; All rights reserved- liel itzchak</h5> 
 `;
+let the_form = document.getElementById("the_form");
+
 function Check_if_similar(testOne, test_two) {
   if (testOne === test_two) {
     for_massage.innerHTML =
@@ -89,4 +90,3 @@ the_form.onsubmit = (e) => {
   let user_email_test = document.getElementById("user_email_test");
   Check_if_similar(user_email_input, user_email_test);
 };
-
