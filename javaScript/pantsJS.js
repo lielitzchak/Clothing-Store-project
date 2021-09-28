@@ -47,10 +47,20 @@ cheap_to_expensive.onclick = (e) => {
     })
   );
 };
+function add_$(the_price, descriptions, category, pictures, Name, id, e) {
+  e.preventDefault();
+  let added = { id, Name, the_price, descriptions, category, pictures };
+  for (let i = 0; i < item.length; i++) {
+    if (item[i].id == id) {
+      items_for_cart.push(added);
+    }
+  }
+  console.log(items_for_cart);
+  return added;
+}
+let footerDiv = document.getElementById("footerDiv");
 
-let footerDiv= document.getElementById("footerDiv")
-
-footerDiv.innerHTML=`
+footerDiv.innerHTML = `
 <div id="footer_div_home_page">
 <section class="footer_section_home_page">
   <ul class="footer_ul_home_page">
