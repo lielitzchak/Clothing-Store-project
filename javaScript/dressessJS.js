@@ -1,5 +1,3 @@
-
-
 function remove_$(ids, e) {
   e.preventDefault();
   for (let i = 0; i < items_for_cart.length; i++) {
