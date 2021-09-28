@@ -70,7 +70,7 @@ footerDiv.innerHTML = `<div id="footer_div_home_page">
 <h5 id="All_rights_reserved">	&copy; All rights reserved- liel itzchak</h5> 
 `;
 function Check_if_similar(testOne, test_two) {
-  if (testOne == test_two) {
+  if (testOne === test_two) {
     for_massage.innerHTML =
       "<p>your details saves and <br> you in our Newsletter</p>";
     let new_user = { name: user_name_input, email: user_email_input };

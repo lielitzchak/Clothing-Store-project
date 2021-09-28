@@ -1,3 +1,5 @@
+let the_form = document.getElementById("the_form");
+
 for (let i = 0; i < item_for_cart.length; i++) {
   tTable.innerHTML += `
    <tr class="cart_all" id ="${item_for_cart[i].id}">

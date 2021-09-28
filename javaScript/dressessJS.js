@@ -1,33 +1,8 @@
 const expensive_to__cheap = document.getElementById("expensive_to__cheap");
 const cheap_to_expensive = document.getElementById("cheap_to_expensive");
-const sort_random = document.getElementById("sort_random");
-const div_for_scrip = document.getElementById("div_for_scrip");
 const shopping_img_cart_add = document.getElementById("shopping_img_cart_add");
-let theHeader = document.getElementsByTagName("header");
-let imgLogoHome = document.getElementById("imgLogoHome");
-let king = document.getElementById("king");
-let div_for_mobile_pic = document.getElementById("div_for_mobile_pic");
 let the_form = document.getElementById("the_form");
-let mobile_container = document.getElementById("mobile_container");
-let user_name_input = document.getElementById("user_name");
-let user_email_input = document.getElementById("user_email");
-let for_massage = document.getElementById("for_massage");
-let div_for_main = document.getElementById("div_for_main");
-let img_category_mobile = document.getElementById("img_category_mobile");
-let enterJS = document.getElementById("enterJS");
-const the_table = document.getElementById("the_table");
-const td_class = document.getElementsByClassName("td_class");
-let div_sum = document.getElementById("theSum");
-let btn_remove = document.getElementById("btn_remove");
-const btn_class = document.getElementsByClassName("btn_class");
-let the_section = document.getElementById("the_section");
-let tTable = document.getElementById("the_table");
-let total = document.getElementById("totalSum");
-let the_sum = document.getElementById("the_sum");
-const click_to_add_to_the_cart = document.getElementById(
-  "click_to_add_to_the_cart"
-);
-const items_for_cart = [];
+
 function remove_$(ids, e) {
   e.preventDefault();
   for (let i = 0; i < items_for_cart.length; i++) {
