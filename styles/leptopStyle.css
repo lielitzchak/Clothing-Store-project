@@ -50,6 +50,16 @@
   main {
     background-color: #c8c6c6;
   }
+  #toUp {
+    position: relative;
+    width: 99px;
+    position: absolute;
+    height: 99px;
+    border-radius: 50%;
+    background-color: rgb(20, 220, 37);
+  }
+  #thetoUp {
+  }
   .section_home_page {
     border-radius: 10px;
     padding: 0.5%;
