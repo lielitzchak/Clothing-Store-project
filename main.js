@@ -467,7 +467,6 @@ let theHeader = document.getElementsByTagName("header");
 let imgLogoHome = document.getElementById("imgLogoHome");
 let div_for_mobile_pic = document.getElementById("div_for_mobile_pic");
 let mobile_container = document.getElementById("mobile_container");
-let div_for_main = document.getElementById("div_for_main");
 let img_category_mobile = document.getElementById("img_category_mobile");
 let enterJS = document.getElementById("enterJS");
 const the_table = document.getElementById("the_table");
@@ -483,4 +482,3 @@ const click_to_add_to_the_cart = document.getElementById(
   "click_to_add_to_the_cart"
 );
 const items_for_cart = [];
-
