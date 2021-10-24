@@ -226,14 +226,6 @@ const item = [
     category: "Swimwear",
     picture: ["https://did.li/9RHNf", "https://did.li/p40ql"],
   },
-  // {
-  //   id: "28",
-  //   itemName: "Lapel Collar Pocket Blouse",
-  //   price: 60,
-  //   description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-  //   category: "Shirts",
-  //   picture: ["https://did.li/830ql", "https://did.li/oeC5q"],
-  // },
   {
     id: "29",
     itemName: "Sheer Mesh Overlay Hem Bustier Cami Dress",
@@ -461,24 +453,3 @@ const item_for_cart = [
     picture: ["https://did.li/140ql", "https://did.li/hfC5q"],
   },
 ];
-
-const div_for_scrip = document.getElementById("div_for_scrip");
-let theHeader = document.getElementsByTagName("header");
-let imgLogoHome = document.getElementById("imgLogoHome");
-let div_for_mobile_pic = document.getElementById("div_for_mobile_pic");
-let mobile_container = document.getElementById("mobile_container");
-let img_category_mobile = document.getElementById("img_category_mobile");
-let enterJS = document.getElementById("enterJS");
-const the_table = document.getElementById("the_table");
-const td_class = document.getElementsByClassName("td_class");
-let div_sum = document.getElementById("theSum");
-let btn_remove = document.getElementById("btn_remove");
-const btn_class = document.getElementsByClassName("btn_class");
-let the_section = document.getElementById("the_section");
-let tTable = document.getElementById("the_table");
-let total = document.getElementById("totalSum");
-let the_sum = document.getElementById("the_sum");
-const click_to_add_to_the_cart = document.getElementById(
-  "click_to_add_to_the_cart"
-);
-const items_for_cart = [];

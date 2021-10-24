@@ -103,10 +103,18 @@
   }
   .shopping_img_cart_add {
     width: 3%;
+
     height: auto;
     position: absolute;
     bottom: 9%;
     left: 26%;
+  }
+  .cart_all{
+    background-color: pink;
+  }
+  .img_table {
+    width: 297px;
+    height: auto;
   }
   .shopping_img_cart_remove {
     border-radius: 10px;

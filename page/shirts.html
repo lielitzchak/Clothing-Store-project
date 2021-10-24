@@ -49,9 +49,11 @@
     </header>
     <main>
       <hr>
-      <div class="sort_by">
-          <a href="" id="cheap_to_expensive"><ol>Sort from the cheap expensive</ol></a>
-         <a href="" id="expensive_to__cheap"><ol>Sort from expensive to cheap</ol></a> 
+      <div class="sort_by"> 
+        <select> 
+          <option onclick="cheapToExpensive()" id="cheap_to_expensive" value="">Sort from the cheap to expensive</option>  
+        <option id="expensive_to__cheap" value="">Sort from expensive to cheap</option>  
+        </select>   
       <div> <input type="text" placeholder="Search..." > <button>Search</button></div> 
       </div>
       <hr>
