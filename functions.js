@@ -5,7 +5,7 @@ let divForDresses = document.getElementById("divForDresses");
 let divFooter = document.getElementById("divFooter");
 let the_form = document.getElementById("the_form");
 let expensive_to__cheap = document.getElementById("expensive_to__cheap");
-let cheap_to_expensive = document.getElementById("cheap_to_expensive");
+let sortBy = document.getElementById("sortBy");
 const shopping_img_cart_add = document.getElementById("shopping_img_cart_add");
 let items_for_cart = [];
 function printToWindowByCategory(div, category) {
@@ -148,38 +148,16 @@ function DisplayFooterAllPages(div) {
 }
 DisplayFooterAllPages(divFooter);
 // ! לסדר את הפונקציות האלה
-// const num = [4, 5, 7, 2, 8, 1, 9, 5, 2, 3, 6, 8, 5, 7, 4, 2, 1];
-function kk(arr) {
-  arr.sort((a, b) => {
-    return a.price - b.price;
-  });
-}
-function cheapToExpensive() {
-  console.log("good");
-}
 
-// {cheap_to_expensive.onclick = () => {
-//   console.log("gg");
-// };
-// cheap_to_expensive.onclick = kk(item);
-// console.log(kk(item));
-// cheap_to_expensive.onclick = (e) => {
-// function ff(array, e) {
-// e.preventDefault();
-//   return array.sort((a, b) => {
-//     return a.price - b.price;
-//   });
-// }
-// console.log(ff(num));
-// };
-
-// function ff(div) {
-//   div.sort((a, b) => {
-//     return b.price - a.price;
-//   });
-// }
-// ff(printToWindowByCategory(divForShirts, "shirts"));
-// cheap_to_expensive.onclick = (e) => {
-//   e.preventDefault();
-//   ff(printToWindowByCategory(divForShirts, "shirts"));
-// };
+let test = document.getElementById("test");
+//! this function choose the cheap or expensive in the price , but only to log.. i need to keep work on that , its still dont working. need to check
+function selectOption() {
+  let option = document.getElementsByTagName("option");
+  for (let i = 0; i < option.length; i++) {
+    if (option[i].innerHTML == "cheap to expensive") {
+      return console.log("cheep");
+    } else if (option[i].innerHTML == "expensive to cheap") {
+      return console.log("expensive");
+    }
+  }
+}

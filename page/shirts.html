@@ -50,9 +50,11 @@
     <main>
       <hr>
       <div class="sort_by"> 
-        <select> 
-          <option onclick="cheapToExpensive()" id="cheap_to_expensive" value="">Sort from the cheap to expensive</option>  
-        <option id="expensive_to__cheap" value="">Sort from expensive to cheap</option>  
+        <select id="sortBy" onchange="selectOption()"> 
+        
+          <option  value="cheap to expensive">cheap to expensive</option>  
+          <option value="expensive to cheap">expensive to cheap</option>  
+          <option selected disabled >Price adjustment</option>    
         </select>   
       <div> <input type="text" placeholder="Search..." > <button>Search</button></div> 
       </div>
