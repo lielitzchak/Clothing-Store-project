@@ -50,13 +50,15 @@
     <main>
       <hr>
       <div class="sort_by"> 
-        <select id="sortBy" onchange="selectOption()"> 
-        
-          <option  value="cheap to expensive">cheap to expensive</option>  
+        <select id="sortBy" > 
+          <option value="cheap to expensive">cheap to expensive</option>  
           <option value="expensive to cheap">expensive to cheap</option>  
           <option selected disabled >Price adjustment</option>    
         </select>   
-      <div> <input type="text" placeholder="Search..." > <button>Search</button></div> 
+      <div> 
+        <input type="search" placeholder="Search..." > 
+        <button>Search</button>
+      </div> 
       </div>
       <hr>
      <div  id="divForShirts"></div>
@@ -66,7 +68,5 @@
     </footer>
     <script src="../main.js"></script>   
     <script src="../functions.js"></script>
-      
-    <!-- <script src="../javaScript/shirtsJS.js"></script> -->
   </body>
 </html>
