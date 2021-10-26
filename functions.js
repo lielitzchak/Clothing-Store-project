@@ -9,6 +9,9 @@ let sortBy = document.getElementById("sortBy");
 const shopping_img_cart_add = document.getElementById("shopping_img_cart_add");
 let items_for_cart = [];
 function printToWindowByCategory(div, category) {
+  if (div) {
+    div.innerHTML = "";
+  }
   for (let i = 0; i < item.length; i++) {
     if (item[i].category == category && div !== null) {
       div.innerHTML += `
@@ -150,14 +153,27 @@ DisplayFooterAllPages(divFooter);
 // ! לסדר את הפונקציות האלה
 
 let test = document.getElementById("test");
-//! this function choose the cheap or expensive in the price , but only to log.. i need to keep work on that , its still dont working. need to check
-function selectOption() {
-  let option = document.getElementsByTagName("option");
-  for (let i = 0; i < option.length; i++) {
-    if (option[i].innerHTML == "cheap to expensive") {
-      return console.log("cheep");
-    } else if (option[i].innerHTML == "expensive to cheap") {
-      return console.log("expensive");
-    }
+let options = document.getElementsByTagName("option");
+sortBy.onchange = () => {
+  switch (sortBy.value) {
+    case "cheap to expensive":
+      item.sort((a, b) => {
+        return a.price - b.price;
+      });
+      break;
+    case "expensive to cheap":
+      item.sort((a, b) => {
+        return b.price - a.price;
+      });
+      break;
+    default:
+      return;
   }
-}
+
+  printToWindowByCategory(divForPants, "pants");
+  printToWindowByCategory(divForShirts, "Shirts");
+  printToWindowByCategory(divForSwimwear, "Swimwear");
+  printToWindowByCategory(divForDresses, "dresses");
+};
+
+console.log();
