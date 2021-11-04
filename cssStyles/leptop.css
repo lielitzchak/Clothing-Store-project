@@ -92,6 +92,13 @@
       box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
     }
   }
+  #the_table {
+    padding-left: 1%;
+    padding-top: 1%;
+  }
+  #the_table th {
+    width: 155px;
+  }
   .item_name,
   .item_price {
     padding: 2%;
@@ -109,11 +116,11 @@
     bottom: 9%;
     left: 26%;
   }
-  .cart_all{
-    background-color: pink;
+  .cart_all {
+    /* background-color: pink; */
   }
   .img_table {
-    width: 297px;
+    width: 140px;
     height: auto;
   }
   .shopping_img_cart_remove {
