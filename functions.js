@@ -150,7 +150,6 @@ function DisplayFooterAllPages(div) {
       `;
 }
 DisplayFooterAllPages(divFooter);
-// ! לסדר את הפונקציות האלה
 
 let test = document.getElementById("test");
 let options = document.getElementsByTagName("option");
@@ -176,4 +175,9 @@ sortBy.onchange = () => {
   printToWindowByCategory(divForDresses, "dresses");
 };
 
+<<<<<<< HEAD
 console.log();
+=======
+console.log();
+
+>>>>>>> b20ce98b08c277b86512555d855b7b1c538bac1e
