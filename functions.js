@@ -174,10 +174,3 @@ sortBy.onchange = () => {
   printToWindowByCategory(divForSwimwear, "Swimwear");
   printToWindowByCategory(divForDresses, "dresses");
 };
-
-<<<<<<< HEAD
-console.log();
-=======
-console.log();
-
->>>>>>> b20ce98b08c277b86512555d855b7b1c538bac1e
