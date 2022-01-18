@@ -1,2 +1,3 @@
 # Clothing-Store-project
-# test
+
+project with HTML, CSS and JS 
